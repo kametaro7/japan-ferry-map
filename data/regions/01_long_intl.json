@@ -1,0 +1,1756 @@
+{
+  "region": "01_long_intl",
+  "updated": "2026-09-13",
+  "routes": [
+    {
+      "id": "01-snf-maizuru-otaru",
+      "name": "舞鶴〜小樽",
+      "operator": "新日本海フェリー",
+      "operator_url": "https://www.snf.jp/",
+      "route_url": "https://www.snf.jp/guide/time_schedule/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "舞鶴",
+          "lat": 35.48164,
+          "lon": 135.39192
+        },
+        {
+          "name": "小樽",
+          "lat": 43.19049,
+          "lon": 141.01712
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "舞鶴23:50発→翌20:45小樽着、小樽23:30発→翌21:15舞鶴着の船中1泊。個室（スイート・ステート等）と寝台・相部屋のツーリストクラス",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "京都府",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約21時間",
+      "frequency": "毎日1往復（臨時運休日あり）",
+      "vessels": "けやき・はまなす",
+      "osm": [
+        "way/70108523"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.snf.jp/guide/time_schedule/",
+        "https://www.snf.jp/cms/wp-content/uploads/2026.09_配船表.pdf",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-snf-tsuruga-tomakomai",
+      "name": "敦賀〜苫小牧東（直行便）",
+      "operator": "新日本海フェリー",
+      "operator_url": "https://www.snf.jp/",
+      "route_url": "https://www.snf.jp/guide/time_schedule/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "敦賀",
+          "lat": 35.67862,
+          "lon": 136.07229
+        },
+        {
+          "name": "苫小牧東港（周文埠頭）",
+          "lat": 42.61001,
+          "lon": 141.81955
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "敦賀23:55発→翌20:30苫小牧東港着、苫小牧東港23:30発→翌20:30敦賀着の船中1泊。個室と寝台・相部屋のツーリストクラス",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "福井県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約21時間",
+      "frequency": "毎日1往復（臨時運休日あり）",
+      "vessels": "すずらん・すいせん",
+      "osm": [
+        "way/550415128"
+      ],
+      "notes": "苫小牧東港のりばは東港周文埠頭。",
+      "sources": [
+        "https://www.snf.jp/guide/time_schedule/",
+        "https://www.snf.jp/cms/wp-content/uploads/2026.09_配船表.pdf",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-snf-niigata-otaru",
+      "name": "新潟〜小樽",
+      "operator": "新日本海フェリー",
+      "operator_url": "https://www.snf.jp/",
+      "route_url": "https://www.snf.jp/guide/time_schedule/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "新潟",
+          "lat": 37.93815,
+          "lon": 139.06871
+        },
+        {
+          "name": "小樽",
+          "lat": 43.19049,
+          "lon": 141.01712
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "新潟12:00発→翌4:30小樽着、小樽16:45発→翌9:15新潟着（船中1泊）。個室と寝台・相部屋のツーリストクラス",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "新潟県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約16時間30分",
+      "frequency": "ほぼ毎日1往復（新潟発は月曜、小樽発は日曜が運休）",
+      "vessels": "らべんだあ・あざれあ",
+      "osm": [
+        "way/550415117"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.snf.jp/guide/time_schedule/",
+        "https://www.snf.jp/cms/wp-content/uploads/2026.09_配船表.pdf",
+        "https://www.snf.jp/cms/wp-content/uploads/2026.10_配船表.pdf",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-snf-tsuruga-niigata-akita-tomakomai",
+      "name": "敦賀〜新潟〜秋田〜苫小牧東",
+      "operator": "新日本海フェリー",
+      "operator_url": "https://www.snf.jp/",
+      "route_url": "https://www.snf.jp/guide/time_schedule/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "敦賀",
+          "lat": 35.67862,
+          "lon": 136.07229
+        },
+        {
+          "name": "新潟",
+          "lat": 37.93815,
+          "lon": 139.06871
+        },
+        {
+          "name": "秋田",
+          "lat": 39.75498,
+          "lon": 140.05858
+        },
+        {
+          "name": "苫小牧東港（周文埠頭）",
+          "lat": 42.61001,
+          "lon": 141.81955
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "全区間夜行。2026年10月1日以降は北行 敦賀18:30発→新潟翌6:00着/22:30発→秋田翌々5:05着/6:15発→苫小牧東港16:45着、南行 苫小牧東港19:30発→秋田翌7:35着/8:35発→新潟15:30着/17:30発→敦賀翌6:00着。個室と寝台・相部屋のツーリストクラス",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "福井県",
+        "新潟県",
+        "秋田県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "敦賀〜苫小牧東港 約46時間（新潟〜苫小牧東港 約18時間）",
+      "frequency": "2026年9月30日まで：新潟〜秋田〜苫小牧東港は日曜以外ほぼ毎日、敦賀発着は週1往復／10月1日から：敦賀発着の週3往復（北行 敦賀発 火木日、南行 苫小牧東港発 火木土）",
+      "vessels": "らいらっく・ゆうかり",
+      "osm": [
+        "way/525623597",
+        "way/525626794",
+        "way/645295536"
+      ],
+      "notes": "公式サイトは「敦賀〜新潟〜秋田〜苫小牧東」「新潟〜秋田〜苫小牧東」「秋田〜苫小牧東」等を分けて案内しているが、同じ2隻（らいらっく・ゆうかり）の運航系統で、10月1日のダイヤ改正後は新潟〜秋田〜苫小牧東の便がすべて敦賀発着便に統合されるため1件にまとめた。改正後、敦賀から秋田・苫小牧東港まで乗る客は新潟で一旦下船できる。区間乗船（敦賀〜新潟、新潟〜秋田、秋田〜苫小牧東港など）も可。苫小牧東港のりばは東港周文埠頭。",
+      "sources": [
+        "https://www.snf.jp/guide/time_schedule/",
+        "https://www.snf.jp/cms/wp-content/uploads/2026.09_配船表.pdf",
+        "https://www.snf.jp/cms/wp-content/uploads/2026.10_配船表.pdf",
+        "https://www.snf.jp/timetable1001/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-taiheiyo-nagoya-sendai-tomakomai",
+      "name": "名古屋〜仙台〜苫小牧",
+      "operator": "太平洋フェリー",
+      "operator_url": "https://www.taiheiyo-ferry.co.jp/",
+      "route_url": "https://www.taiheiyo-ferry.co.jp/koro/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "名古屋",
+          "lat": 35.06014,
+          "lon": 136.84504
+        },
+        {
+          "name": "仙台",
+          "lat": 38.27436,
+          "lon": 141.00543
+        },
+        {
+          "name": "苫小牧（西港）",
+          "lat": 42.63837,
+          "lon": 141.63506
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "名古屋19:00発→仙台翌16:40着/19:40発→苫小牧翌々11:00着（船中2泊）、苫小牧19:00発→仙台翌10:00着/12:50発→名古屋翌々10:30着。個室（スイート・特等・1等等）と寝台",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛知県",
+        "宮城県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "名古屋〜苫小牧 約40時間",
+      "frequency": "隔日運航",
+      "vessels": "きそ・いしかり",
+      "osm": [
+        "way/550415108",
+        "way/550415133"
+      ],
+      "notes": "仙台〜苫小牧間は仙台〜苫小牧便（別件）と合わせて毎日運航。区間乗船（名古屋〜仙台、仙台〜苫小牧）可。",
+      "sources": [
+        "https://www.taiheiyo-ferry.co.jp/koro/",
+        "https://www.taiheiyo-ferry.co.jp/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-taiheiyo-sendai-tomakomai",
+      "name": "仙台〜苫小牧",
+      "operator": "太平洋フェリー",
+      "operator_url": "https://www.taiheiyo-ferry.co.jp/",
+      "route_url": "https://www.taiheiyo-ferry.co.jp/koro/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "仙台",
+          "lat": 38.27436,
+          "lon": 141.00543
+        },
+        {
+          "name": "苫小牧（西港）",
+          "lat": 42.63837,
+          "lon": 141.63506
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "仙台19:40発→翌11:00苫小牧着、苫小牧19:00発→翌10:00仙台着の夜行便。個室と寝台",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約15時間",
+      "frequency": "毎日1往復",
+      "vessels": "きたかみ（隔日で名古屋便のきそ・いしかりが担当）",
+      "osm": [
+        "way/550415133"
+      ],
+      "notes": "名古屋〜仙台〜苫小牧便（隔日）と合わせて毎日運航。",
+      "sources": [
+        "https://www.taiheiyo-ferry.co.jp/koro/",
+        "https://www.taiheiyo-ferry.co.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-sunflower-oarai-tomakomai",
+      "name": "大洗〜苫小牧",
+      "operator": "商船三井さんふらわあ",
+      "operator_url": "https://www.sunflower.co.jp/",
+      "route_url": "https://www.sunflower.co.jp/route/facilities/timetable/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "大洗",
+          "lat": 36.30927,
+          "lon": 140.57349
+        },
+        {
+          "name": "苫小牧（西港）",
+          "lat": 42.63837,
+          "lon": 141.63506
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "夕方便：大洗19:45発→翌13:30苫小牧着、苫小牧18:45発→翌14:00大洗着（スイート〜ツーリスト）。深夜便：大洗1:45発→19:45苫小牧着、苫小牧1:30発→19:30大洗着（全室窓なし・鍵付きの個室）",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "茨城県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約18〜19時間",
+      "frequency": "夕方便・深夜便の1日2往復（運休日あり）",
+      "vessels": "夕方便：さんふらわあ さっぽろ・ふらの／深夜便：さんふらわあ かむい・ぴりか（2025年就航）",
+      "osm": [
+        "way/550415107"
+      ],
+      "notes": "深夜便は車両甲板が船体上部にある構造上、到着後の下船開始まで1時間程度かかる場合がある。",
+      "sources": [
+        "https://www.sunflower.co.jp/route/facilities/timetable/",
+        "https://www.sunflower.co.jp/route/facilities/midnight/kp.html",
+        "https://www.sunflower.co.jp/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-sunflower-osaka-beppu",
+      "name": "大阪〜別府",
+      "operator": "商船三井さんふらわあ",
+      "operator_url": "https://www.ferry-sunflower.co.jp/",
+      "route_url": "https://www.ferry-sunflower.co.jp/route/osaka-beppu/time/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "大阪南港（さんふらわあターミナル第1）",
+          "lat": 34.63758,
+          "lon": 135.41117
+        },
+        {
+          "name": "別府",
+          "lat": 33.30531,
+          "lon": 131.50395
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "大阪19:05発→翌6:55別府着（金・土は20:05発→7:55着）、別府18:45発→翌6:35大阪着（金・土は19:20発→7:25着）。スイート〜ツーリスト",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "大阪府",
+        "大分県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約11〜12時間",
+      "frequency": "毎日1往復",
+      "vessels": "さんふらわあ くれない・むらさき（2023年就航）",
+      "osm": [
+        "way/321461203"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.ferry-sunflower.co.jp/route/osaka-beppu/time/",
+        "https://www.ferry-sunflower.co.jp/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-sunflower-kobe-oita",
+      "name": "神戸〜大分",
+      "operator": "商船三井さんふらわあ",
+      "operator_url": "https://www.ferry-sunflower.co.jp/",
+      "route_url": "https://www.ferry-sunflower.co.jp/route/kobe-oita/time/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "神戸（六甲アイランド）",
+          "lat": 34.69705,
+          "lon": 135.28252
+        },
+        {
+          "name": "大分（西大分）",
+          "lat": 33.24616,
+          "lon": 131.58859
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "神戸19:00発（金・土19:50発）→翌朝大分着、大分19:20発（金・土19:30発）→翌朝神戸着の夜行便。スイート〜ツーリスト",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "兵庫県",
+        "大分県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約11時間",
+      "frequency": "毎日1往復",
+      "vessels": "さんふらわあ ごーるど・ぱーる",
+      "osm": [
+        "way/1355138061"
+      ],
+      "notes": "神戸側は六甲アイランドのフェリーターミナル。",
+      "sources": [
+        "https://www.ferry-sunflower.co.jp/route/kobe-oita/time/",
+        "https://www.ferry-sunflower.co.jp/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-sunflower-osaka-shibushi",
+      "name": "大阪〜志布志",
+      "operator": "商船三井さんふらわあ",
+      "operator_url": "https://www.ferry-sunflower.co.jp/",
+      "route_url": "https://www.ferry-sunflower.co.jp/route/osaka-shibushi/time/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "大阪南港（さんふらわあターミナル第2）",
+          "lat": 34.63436,
+          "lon": 135.40781
+        },
+        {
+          "name": "志布志",
+          "lat": 31.46102,
+          "lon": 131.09815
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "大阪17:55発→翌8:55志布志着、志布志17:55発→翌7:40大阪着（曜日により時刻が異なる）。スイート〜ツーリスト",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "大阪府",
+        "鹿児島県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約14〜15時間",
+      "frequency": "毎日1往復（定期休航日あり）",
+      "vessels": "さんふらわあ さつま・きりしま",
+      "osm": [
+        "way/1355696269"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.ferry-sunflower.co.jp/route/osaka-shibushi/time/",
+        "https://www.ferry-sunflower.co.jp/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-silver-hachinohe-tomakomai",
+      "name": "八戸〜苫小牧",
+      "operator": "シルバーフェリー（川崎近海汽船）",
+      "operator_url": "https://www.silverferry.jp/",
+      "route_url": "https://www.silverferry.jp/route_guide/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "八戸",
+          "lat": 40.54875,
+          "lon": 141.50697
+        },
+        {
+          "name": "苫小牧（西港）",
+          "lat": 42.63837,
+          "lon": 141.63506
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "1日4往復のうち八戸22:00発→翌6:00苫小牧着、苫小牧21:15発→翌4:45八戸着・23:59発→翌7:30八戸着などの夜行便あり（17:30発→翌1:30着の便も）",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約7時間15分〜8時間30分",
+      "frequency": "1日4往復",
+      "vessels": "シルバープリンセス・シルバーティアラ・シルバーブリーズ・シルバーエイト",
+      "osm": [
+        "way/553228635"
+      ],
+      "notes": "航路距離は約240kmだが、本州〜北海道を結ぶ長距離系フェリーとして仕様書の例示どおり01で収録。宮古〜室蘭航路は廃止済み。",
+      "sources": [
+        "https://www.silverferry.jp/route_guide/",
+        "https://www.silverferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-meimon-osaka-shinmoji",
+      "name": "大阪南港〜新門司",
+      "operator": "名門大洋フェリー",
+      "operator_url": "https://www.cityline.co.jp/",
+      "route_url": "https://www.cityline.co.jp/route/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "大阪南港（大阪南港フェリーターミナル）",
+          "lat": 34.6196,
+          "lon": 135.43235
+        },
+        {
+          "name": "新門司",
+          "lat": 33.87119,
+          "lon": 130.98548
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "第1便17:00発→翌5:30着、第2便19:50発→翌8:30着（上下とも）の夜行便。スイート〜ツーリスト・エコノミー",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "大阪府",
+        "福岡県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約12時間30分",
+      "frequency": "1日2往復",
+      "vessels": "フェリーおおさかⅡ・フェリーきたきゅうしゅうⅡ（第1便）、フェリーきょうと・フェリーふくおか（第2便）",
+      "osm": [
+        "way/1355696240"
+      ],
+      "notes": "大阪側は大阪南港フェリーターミナル（ニュートラム「フェリーターミナル」駅）。",
+      "sources": [
+        "https://www.cityline.co.jp/route/",
+        "https://www.cityline.co.jp/wps/wp-content/uploads/2026/06/2026-運航スケジュール⑨.pdf",
+        "https://www.cityline.co.jp/terminal/osaka/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-hankyu-izumiotsu-shinmoji",
+      "name": "泉大津〜新門司",
+      "operator": "阪九フェリー",
+      "operator_url": "https://www.han9f.co.jp/",
+      "route_url": "https://www.han9f.co.jp/izumiotsu/timetable/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "泉大津",
+          "lat": 34.51832,
+          "lon": 135.39622
+        },
+        {
+          "name": "新門司（阪九第2ターミナル）",
+          "lat": 33.88337,
+          "lon": 130.98964
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "泉大津17:30発→翌6:00新門司着、新門司17:30発→翌6:00泉大津着の夜行便。個室と寝台・相部屋",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "大阪府",
+        "福岡県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約12時間30分",
+      "frequency": "毎日1往復",
+      "vessels": "いずみ・ひびき",
+      "osm": [
+        "way/550415138"
+      ],
+      "notes": "新門司側は阪九フェリー第2ターミナル。",
+      "sources": [
+        "https://www.han9f.co.jp/izumiotsu/timetable/",
+        "https://www.han9f.co.jp/izumiotsu/access/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-hankyu-kobe-shinmoji",
+      "name": "神戸〜新門司",
+      "operator": "阪九フェリー",
+      "operator_url": "https://www.han9f.co.jp/",
+      "route_url": "https://www.han9f.co.jp/kobe/timetable/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "神戸（六甲アイランド）",
+          "lat": 34.6967,
+          "lon": 135.285
+        },
+        {
+          "name": "新門司（阪九第1ターミナル）",
+          "lat": 33.88529,
+          "lon": 130.99003
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "神戸18:30発→翌7:00新門司着、新門司18:40発→翌7:10神戸着（金・土は20:00発→8:30着）の夜行便。個室と寝台・相部屋",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "兵庫県",
+        "福岡県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約12時間30分",
+      "frequency": "毎日1往復",
+      "vessels": "せっつ・やまと",
+      "osm": [
+        "way/1355138062"
+      ],
+      "notes": "神戸側は六甲アイランド、新門司側は阪九フェリー第1ターミナル。2026年9月8日の公式告知によると機関故障の整備のため9月15日まで欠航、16日以降の運航も未定（一時的な欠航のため status は active）。",
+      "sources": [
+        "https://www.han9f.co.jp/kobe/timetable/",
+        "https://www.han9f.co.jp/important-notice/40792/",
+        "https://www.han9f.co.jp/kobe/access/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-tqf-yokosuka-shinmoji",
+      "name": "横須賀〜新門司",
+      "operator": "東京九州フェリー",
+      "operator_url": "https://tqf.co.jp/",
+      "route_url": "https://tqf.co.jp/time_schedule/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "横須賀",
+          "lat": 35.28346,
+          "lon": 139.6782
+        },
+        {
+          "name": "新門司",
+          "lat": 33.87641,
+          "lon": 130.99436
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "横須賀23:45発→翌21:00新門司着、新門司23:55発→翌20:45横須賀着（船中1泊）。個室と寝台（ツーリスト）",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "神奈川県",
+        "福岡県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約21時間",
+      "frequency": "週6往復（日曜運休）",
+      "vessels": "はまゆう・それいゆ",
+      "osm": [
+        "way/1017810659"
+      ],
+      "notes": "",
+      "sources": [
+        "https://tqf.co.jp/time_schedule/",
+        "https://tqf.co.jp/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-otf-tokyo-tokushima-shinmoji",
+      "name": "東京（有明）〜徳島（沖洲）〜新門司",
+      "operator": "オーシャン東九フェリー（オーシャントランス）",
+      "operator_url": "https://www.otf.jp/",
+      "route_url": "https://www.otf.jp/schedule/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "東京（有明）",
+          "lat": 35.61731,
+          "lon": 139.79575
+        },
+        {
+          "name": "徳島（沖洲）",
+          "lat": 34.05387,
+          "lon": 134.59587
+        },
+        {
+          "name": "新門司（北九州）",
+          "lat": 33.88151,
+          "lon": 130.98915
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "東京19:00発→徳島翌13:20着/14:20発→新門司翌々5:35着、新門司19:00発→徳島翌9:20着/11:20発→東京翌々5:30着（船中泊）。個室と寝台",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "東京都",
+        "徳島県",
+        "福岡県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "東京〜新門司 約34時間30分",
+      "frequency": "1日1往復（月に数日休航日あり）",
+      "vessels": "フェリーびざん・しまんと・どうご・りつりん",
+      "osm": [
+        "way/550203352",
+        "way/550202121"
+      ],
+      "notes": "東京〜徳島、徳島〜新門司の区間乗船も可。",
+      "sources": [
+        "https://www.otf.jp/schedule/",
+        "https://www.otf.jp/wp-content/uploads/2026/08/9197ae17c43436226c33a93e76caacd5.pdf",
+        "https://www.otf.jp/wp-content/uploads/2026/08/516af0a11015fd73bc21b8bb09140d4e.pdf",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-miyazaki-kobe-miyazaki",
+      "name": "神戸〜宮崎",
+      "operator": "宮崎カーフェリー",
+      "operator_url": "https://www.miyazakicarferry.com/",
+      "route_url": "https://www.miyazakicarferry.com/schedule/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "神戸（神戸三宮フェリーターミナル）",
+          "lat": 34.68248,
+          "lon": 135.19892
+        },
+        {
+          "name": "宮崎",
+          "lat": 31.91089,
+          "lon": 131.45776
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "神戸19:10発（日曜18:00発）→翌8:40宮崎着、宮崎19:10発→翌7:30神戸着の夜行便。個室と相部屋・寝台",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "兵庫県",
+        "宮崎県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約12〜14時間",
+      "frequency": "毎日1往復（運休日あり）",
+      "vessels": "フェリーろっこう ほか（2隻で毎日運航）",
+      "osm": [
+        "way/1354194097"
+      ],
+      "notes": "神戸側は神戸三宮フェリーターミナル。",
+      "sources": [
+        "https://www.miyazakicarferry.com/schedule/",
+        "https://www.miyazakicarferry.com/boarding_guide/terminal/",
+        "https://www.jlc-ferry.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-orange-osaka-toyo",
+      "name": "大阪南港〜東予",
+      "operator": "オレンジフェリー（四国開発フェリー）",
+      "operator_url": "https://www.orange-ferry.co.jp/",
+      "route_url": "https://www.orange-ferry.co.jp/time-table/kansai/toyo-osaka/index.html",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "大阪南港（大阪南港フェリーターミナル）",
+          "lat": 34.6196,
+          "lon": 135.43235
+        },
+        {
+          "name": "東予",
+          "lat": 33.92989,
+          "lon": 133.11835
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "大阪南港22:00発→翌6:00東予着、東予22:00発→翌6:00大阪南港着の夜行便。到着後も船内休憩可。客室は個室",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "大阪府",
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約8時間",
+      "frequency": "毎日1往復",
+      "vessels": "おれんじ えひめ・おれんじ おおさか（日替わり）",
+      "osm": [
+        "way/1141572801"
+      ],
+      "notes": "航路距離は300km未満だが仕様書の定義により01で収録。2026年10月20日〜11月2日は定期検査のため大阪発→東予行きが休航（公式告知）。",
+      "sources": [
+        "https://www.orange-ferry.co.jp/time-table/kansai/toyo-osaka/index.html",
+        "https://www.orange-ferry.co.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-aline-kagoshima-naha",
+      "name": "鹿児島〜名瀬〜亀徳〜和泊〜与論〜本部〜那覇",
+      "operator": "マルエーフェリー（A-LINE）",
+      "operator_url": "https://www.aline-ferry.com/",
+      "route_url": "https://www.aline-ferry.com/kagoshima/time/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "鹿児島新港",
+          "lat": 31.58042,
+          "lon": 130.56868
+        },
+        {
+          "name": "名瀬（奄美大島）",
+          "lat": 28.38795,
+          "lon": 129.49495
+        },
+        {
+          "name": "亀徳（徳之島）",
+          "lat": 27.73782,
+          "lon": 129.02431
+        },
+        {
+          "name": "和泊（沖永良部島）",
+          "lat": 27.39826,
+          "lon": 128.66563
+        },
+        {
+          "name": "与論",
+          "lat": 27.03637,
+          "lon": 128.40097
+        },
+        {
+          "name": "本部",
+          "lat": 26.64125,
+          "lon": 127.88013
+        },
+        {
+          "name": "那覇",
+          "lat": 26.21076,
+          "lon": 127.6702
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "下り鹿児島新港18:00発→名瀬翌5:00着/5:50発→亀徳9:10→和泊11:30→与論13:40→本部16:40→那覇19:00着（鹿児島〜名瀬間が夜行・船中泊）。上り那覇7:00発→名瀬夜発→翌朝鹿児島新港着の夜行（マリックスラインと共通ダイヤ）。個室と2等",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "鹿児島県",
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "鹿児島〜那覇 約25時間",
+      "frequency": "隔日（マリックスラインと交互運航で毎日）",
+      "vessels": "フェリーあけぼの・フェリー波之上",
+      "osm": [
+        "way/423867828"
+      ],
+      "notes": "マルエーフェリーとマリックスラインが隔日交互に運航し、合わせて毎日運航。気象・海象により寄港地・時刻の変更や抜港あり（和泊港に着岸できない場合は伊延港を使うことがある）。奄美群島内・沖縄本島内の区間乗船も可。同社の東京・阪神・北九州〜沖縄航路は貨物船で一般旅客は乗船不可のため収録しない。",
+      "sources": [
+        "https://www.aline-ferry.com/kagoshima/time/",
+        "https://www.aline-ferry.com/cms/wp-content/uploads/2022/02/6add8eba7fa4cbd6161d19279c6329af.pdf",
+        "https://www.aline-ferry.com/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-marix-kagoshima-naha",
+      "name": "鹿児島〜名瀬〜亀徳〜和泊〜与論〜本部〜那覇",
+      "operator": "マリックスライン",
+      "operator_url": "https://marixline.com/",
+      "route_url": "https://marixline.com/price_schedule/",
+      "service": "longferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "鹿児島新港",
+          "lat": 31.58042,
+          "lon": 130.56868
+        },
+        {
+          "name": "名瀬（奄美大島）",
+          "lat": 28.38795,
+          "lon": 129.49495
+        },
+        {
+          "name": "亀徳（徳之島）",
+          "lat": 27.73782,
+          "lon": 129.02431
+        },
+        {
+          "name": "和泊（沖永良部島）",
+          "lat": 27.39826,
+          "lon": 128.66563
+        },
+        {
+          "name": "与論",
+          "lat": 27.03637,
+          "lon": 128.40097
+        },
+        {
+          "name": "本部",
+          "lat": 26.64125,
+          "lon": 127.88013
+        },
+        {
+          "name": "那覇",
+          "lat": 26.21076,
+          "lon": 127.6702
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "下り鹿児島新港18:00発→名瀬翌5:00着/5:50発→亀徳9:10→和泊11:30→与論13:40→本部16:40→那覇19:00着（船中泊）。上り那覇7:00発→本部9:00→与論11:50→和泊14:10→亀徳16:30→名瀬20:30着/21:20発→翌8:30鹿児島新港着。個室と2等",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "鹿児島県",
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "鹿児島〜那覇 約25時間",
+      "frequency": "隔日（マルエーフェリーと交互運航で毎日）",
+      "vessels": "クイーンコーラルプラス・クイーンコーラルクロス",
+      "osm": [
+        "way/423867828"
+      ],
+      "notes": "マルエーフェリーとマリックスラインが隔日交互に運航し、合わせて毎日運航。気象・海象により寄港地・時刻の変更や抜港あり（和泊港に着岸できない場合は伊延港を使うことがある）。奄美群島内・沖縄本島内の区間乗船も可。",
+      "sources": [
+        "https://marixline.com/price_schedule/",
+        "https://marixline.com/assets/library/a124bdbdd09d4babb177a51eb62f1dee.pdf",
+        "https://marixline.com/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-kampu-shimonoseki-busan",
+      "name": "下関〜釜山（関釜フェリー）",
+      "operator": "関釜フェリー（釜関フェリーと共同運航）",
+      "operator_url": "https://www.kampuferry.co.jp/",
+      "route_url": "https://www.kampuferry.co.jp/passenger_info/schedule/index.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "下関（下関港国際ターミナル）",
+          "lat": 33.94773,
+          "lon": 130.92544
+        },
+        {
+          "name": "釜山（釜山港国際旅客ターミナル）",
+          "lat": 35.11771,
+          "lon": 129.04921
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "乗用車・125cc以上のバイクの航送可（電話予約・一時輸出入の書類手続きが必要。EV・PHV等は不可）",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "下関19:45発→翌8:00釜山着、釜山21:00発→翌7:45下関着の夜行便。スイート・デラックス・1等・2等",
+      "international": true,
+      "countries": [
+        "JP",
+        "KR"
+      ],
+      "prefectures": [
+        "山口県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約11〜12時間",
+      "frequency": "毎日1往復（はまゆう・星希の交互運航）",
+      "vessels": "はまゆう（日本船籍）・星希（韓国船籍）",
+      "osm": [
+        "way/345221843"
+      ],
+      "notes": "自転車は船内持ち込みのみ（有料、電動自転車不可）。2026年12月30日出港便〜2027年1月4日入港便は運休。",
+      "sources": [
+        "https://www.kampuferry.co.jp/passenger_info/schedule/index.html",
+        "https://www.kampuferry.co.jp/assets/pdf/schedule/SHIPPINGSCHEDULE.pdf",
+        "https://www.kampuferry.co.jp/reserve/",
+        "https://www.kampuferry.co.jp/news/2025_bicycle.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-camellia-hakata-busan",
+      "name": "博多〜釜山（ニューかめりあ）",
+      "operator": "カメリアライン",
+      "operator_url": "https://www.camellia-line.co.jp/",
+      "route_url": "https://www.camellia-line.co.jp/dia/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "博多（博多港国際ターミナル）",
+          "lat": 33.60814,
+          "lon": 130.40004
+        },
+        {
+          "name": "釜山（釜山港国際旅客ターミナル）",
+          "lat": 35.11771,
+          "lon": 129.04921
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "乗用車の航送可（一時輸出入の手続き・諸経費が必要）",
+      "bike": null,
+      "bicycle": null,
+      "overnight": true,
+      "overnight_note": "釜山22:30発→翌7:30博多着の夜行便（博多発は12:30発→18:30釜山着の昼行便。土曜などに博多22:00発→翌7:30釜山着の臨時夜行便あり）。特別室・特等・1等（和室・洋室）・2等寝台・2等客室",
+      "international": true,
+      "countries": [
+        "JP",
+        "KR"
+      ],
+      "prefectures": [
+        "福岡県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "博多→釜山 約6時間、釜山→博多 約9時間",
+      "frequency": "ほぼ毎日1往復（日曜の博多発・土曜の釜山発などに運休日あり）",
+      "vessels": "ニューかめりあ",
+      "osm": [
+        "way/345221851"
+      ],
+      "notes": "博多〜釜山の高速船（JR九州高速船クイーンビートル）は浸水隠蔽問題で2024年8月13日から運休し、2025年2月28日付で船舶事業を廃止したため、2026年時点の博多〜釜山の定期旅客航路はこのフェリーのみ。",
+      "sources": [
+        "https://www.camellia-line.co.jp/dia/",
+        "http://www.camellia-line.co.jp/wp-content/uploads/2014/02/calendar2609-11.jpg",
+        "https://www.camellia-line.co.jp/shipfacility/roomguide/",
+        "https://www.camellia-line.co.jp/vehicle/expenses/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-panstar-osaka-busan",
+      "name": "大阪〜釜山（パンスターミラクル）",
+      "operator": "パンスター（日本総代理店：サンスターライン）",
+      "operator_url": "https://www.panstar.jp/",
+      "route_url": "https://www.panstarcruise.com/product/osaka/info",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "大阪（大阪港国際フェリーターミナル）",
+          "lat": 34.64304,
+          "lon": 135.4212
+        },
+        {
+          "name": "釜山（釜山港国際旅客ターミナル）",
+          "lat": 35.11771,
+          "lon": 129.04921
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "本人名義の自家用車・125cc以上の二輪のみ、観光目的の一時輸出入。出航1か月前までの予約が必要。EV・PHV・キャンピングカー不可",
+      "bike": true,
+      "bicycle": null,
+      "overnight": true,
+      "overnight_note": "大阪発（月・水・金）夕方発→翌10:00釜山着、釜山発（火・木・日）夕方発→翌朝大阪着の夜行便。インサイド客室〜ロイヤルスイート",
+      "international": true,
+      "countries": [
+        "JP",
+        "KR"
+      ],
+      "prefectures": [
+        "大阪府"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約16〜17時間",
+      "frequency": "週3往復",
+      "vessels": "パンスターミラクル",
+      "osm": [
+        "way/870652394"
+      ],
+      "notes": "大阪側は大阪港国際フェリーターミナル（コスモスクエア駅から無料シャトルバス）。2026年2月19日〜3月18日は定期点検で運休した。",
+      "sources": [
+        "https://www.panstar.jp/",
+        "https://www.panstarcruise.com/product/osaka/info",
+        "https://www.panstarcruise.com/product/osaka/vehicle",
+        "https://www.panstar.jp/carferry/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-panstar-hitakatsu-busan",
+      "name": "比田勝〜釜山（パンスター対馬リンク）",
+      "operator": "パンスター（サンスターライン）",
+      "operator_url": "https://www.panstar.jp/",
+      "route_url": "https://www.panstar.jp/tsushimalink/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "比田勝（比田勝港国際ターミナル）",
+          "lat": 34.65598,
+          "lon": 129.46947
+        },
+        {
+          "name": "釜山（釜山港国際旅客ターミナル）",
+          "lat": 35.11771,
+          "lon": 129.04921
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": true,
+      "countries": [
+        "JP",
+        "KR"
+      ],
+      "prefectures": [
+        "長崎県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約1時間10分〜1時間30分",
+      "frequency": "ほぼ毎日（週末は増便）",
+      "vessels": "高速船 パンスター対馬リンク（定員425名）",
+      "osm": [
+        "way/467473103"
+      ],
+      "notes": "韓国パンスターグループの高速船。2026年1月29日〜2月11日は定期点検で運休した。",
+      "sources": [
+        "https://www.panstar.jp/tsushimalink/",
+        "https://www.panstar.co.kr/jp/business/cruise/tsushima_link",
+        "https://www.panstar.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-panstar-izuhara-busan",
+      "name": "厳原〜釜山（パンスター対馬リンク）",
+      "operator": "パンスター（サンスターライン）",
+      "operator_url": "https://www.panstar.jp/",
+      "route_url": "https://www.panstar.jp/tsushimalink/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "厳原（対馬新厳原港国際ターミナル）",
+          "lat": 34.19786,
+          "lon": 129.29087
+        },
+        {
+          "name": "釜山（釜山港国際旅客ターミナル）",
+          "lat": 35.11771,
+          "lon": 129.04921
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": true,
+      "countries": [
+        "JP",
+        "KR"
+      ],
+      "prefectures": [
+        "長崎県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "厳原→釜山 約2時間10分（釜山→厳原は比田勝経由で約2時間40分）",
+      "frequency": "週2便程度",
+      "vessels": "高速船 パンスター対馬リンク（定員425名）",
+      "osm": [
+        "way/741028897"
+      ],
+      "notes": "釜山発の厳原便は比田勝に寄港する。厳原側は対馬新厳原港国際ターミナル（厳原町東里）。",
+      "sources": [
+        "https://www.panstar.jp/tsushimalink/",
+        "https://www.panstar.co.kr/jp/business/cruise/tsushima_link"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "01-daea-hitakatsu-busan",
+      "name": "比田勝〜釜山（SEA FLOWER）",
+      "operator": "大亜高速海運（SEA FLOWER）",
+      "operator_url": "https://www.daea.com/",
+      "route_url": "https://www.daea.com/info/schedule",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "比田勝（比田勝港国際ターミナル）",
+          "lat": 34.65598,
+          "lon": 129.46947
+        },
+        {
+          "name": "釜山（釜山港国際旅客ターミナル）",
+          "lat": 35.11771,
+          "lon": 129.04921
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": true,
+      "countries": [
+        "JP",
+        "KR"
+      ],
+      "prefectures": [
+        "長崎県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約1時間20分",
+      "frequency": "毎日（週末は増便）",
+      "vessels": "高速船 SEA FLOWER（씨플라워）",
+      "osm": [
+        "way/467473103"
+      ],
+      "notes": "韓国・浦項の船会社で公式サイトは韓国語。2026年10〜12月分の予約受付中（公式サイト）。",
+      "sources": [
+        "https://www.daea.com/info/schedule",
+        "https://www.daea.com/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-daea-izuhara-busan",
+      "name": "厳原〜釜山（SEA FLOWER）",
+      "operator": "大亜高速海運（SEA FLOWER）",
+      "operator_url": "https://www.daea.com/",
+      "route_url": "https://www.daea.com/info/schedule",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "厳原（対馬新厳原港国際ターミナル）",
+          "lat": 34.19786,
+          "lon": 129.29087
+        },
+        {
+          "name": "釜山（釜山港国際旅客ターミナル）",
+          "lat": 35.11771,
+          "lon": 129.04921
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": true,
+      "countries": [
+        "JP",
+        "KR"
+      ],
+      "prefectures": [
+        "長崎県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約2時間20分",
+      "frequency": "運航日は公式スケジュール参照",
+      "vessels": "高速船 SEA FLOWER（씨플라워）",
+      "osm": [
+        "way/741028897"
+      ],
+      "notes": "韓国の船会社で公式サイトは韓国語。",
+      "sources": [
+        "https://www.daea.com/info/schedule",
+        "https://www.daea.com/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "01-starline-hitakatsu-busan",
+      "name": "比田勝〜釜山（スターライン NOVA）",
+      "operator": "スターライン（STARLINE）",
+      "operator_url": "https://www.thestarline.co.kr/html/",
+      "route_url": "https://www.thestarline.co.kr/html/?pcode=27",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "比田勝（比田勝港国際ターミナル）",
+          "lat": 34.65598,
+          "lon": 129.46947
+        },
+        {
+          "name": "釜山（釜山港国際旅客ターミナル）",
+          "lat": 35.11771,
+          "lon": 129.04921
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": true,
+      "countries": [
+        "JP",
+        "KR"
+      ],
+      "prefectures": [
+        "長崎県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約1時間30分",
+      "frequency": "1日1〜2往復（運航日は公式スケジュール参照）",
+      "vessels": "高速船 NOVA（双胴船、定員439名、2025年10月就航）",
+      "osm": [
+        "way/467473103"
+      ],
+      "notes": "韓国・釜山の(株)스타라인が運航。公式サイトは韓国語（日本語サイトへのリンクはあるが2026年9月時点で接続不可）。2026年9月の公式スケジュールは釜山〜比田勝のみで、釜山〜厳原便は登録なし、福岡航路のタブは非表示。サイト内に旧「KOBEE」「NINA」（未来高速）の表記が残る。",
+      "sources": [
+        "https://www.thestarline.co.kr/html/?pcode=27",
+        "https://www.thestarline.co.kr/html/",
+        "https://www.thestarline.co.kr/html/?pcode=946"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-duwon-sakaiminato-donghae",
+      "name": "境港〜東海（イースタンドリーム）",
+      "operator": "ドゥウォン商船（DUWON SHIPPING）",
+      "operator_url": "https://www.dwship.co.kr/ja/",
+      "route_url": "https://www.dwship.co.kr/ja/routes/donghae-sakaiminato",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "境港（境夢みなとターミナル）",
+          "lat": 35.52211,
+          "lon": 133.25863
+        },
+        {
+          "name": "東海（韓国・東海港国際旅客ターミナル）",
+          "lat": 37.49186,
+          "lon": 129.12537
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "乗用車・二輪車の航送可（一時輸出入の手続きのため、オンラインではなく担当者経由で予約）",
+      "bike": true,
+      "bicycle": null,
+      "overnight": true,
+      "overnight_note": "境港夕方発→翌9:00東海着、東海夕方発→翌9:00境港着の夜行便。プレジデントルーム〜エコノミーの6等級",
+      "international": true,
+      "countries": [
+        "JP",
+        "KR"
+      ],
+      "prefectures": [
+        "鳥取県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約14〜15時間",
+      "frequency": "週1往復（8〜9月：東海金曜18:00発・境港日曜19:00発、10月以降：東海木曜18:00発・境港土曜18:00発）",
+      "vessels": "イースタンドリーム（11,478トン）",
+      "osm": [
+        "way/1123286389"
+      ],
+      "notes": "2024年8月に境港〜東海の定期貨客船として就航。同社は東海〜ウラジオストク便も運航しており、東海で乗り継いでウラジオストクへ行ける。境港側は通常、夢みなとタワー横の新ターミナルを使用し、2026年の一部日程は昭和町の旧ターミナル（境港国際旅客ターミナル）に変更。",
+      "sources": [
+        "https://www.dwship.co.kr/ja/",
+        "https://www.dwship.co.kr/ja/routes/donghae-sakaiminato",
+        "https://www.dwship.co.kr/ja/notices/4335f099-e203-4227-883d-7c00cf85a714",
+        "https://sakai-port.com/pages/9/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-yaima-ishigaki-keelung",
+      "name": "石垣〜基隆（やいま丸）",
+      "operator": "やいまライン（運航：東聯航運／株式会社商船やいま）",
+      "operator_url": "https://yaimaline.com/",
+      "route_url": "https://yaimaline.com/map.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣（石垣港国際ターミナル）",
+          "lat": 24.32717,
+          "lon": 124.14158
+        },
+        {
+          "name": "基隆（台湾・基隆港東岸旅客センター）",
+          "lat": 25.13232,
+          "lon": 121.74342
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "乗用車・バイクを持ち込んで運転することはできない（輸出貨物扱い）",
+      "bike": false,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "石垣21:00発→翌8:00基隆着、基隆23:00発→翌8:00石垣着（いずれも現地時間）の夜行便。ロイヤルスイート〜スタンダード（相部屋）の寝室",
+      "international": true,
+      "countries": [
+        "JP",
+        "TW"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約8時間",
+      "frequency": "週2往復（2026年8〜9月）",
+      "vessels": "やいま丸（YAIMAMARU、21,688トン、旅客定員約545名）",
+      "osm": [
+        "way/1524239409"
+      ],
+      "notes": "2026年5月28日就航（石垣〜台湾の定期旅客航路は約18年ぶり）。運航は台湾の東聯航運（ユニワゴン）。乗船券は指定旅行代理店で購入（公式サイトでの直接予約不可）。石垣側は石垣港ターミナル（浜崎町）を使う便もあり、基隆側は19番バースから東岸（または西岸）旅客センターへバス送迎。自転車は非電動のみ1人1台（輪行袋に収納）。",
+      "sources": [
+        "https://yaimaline.com/map.html",
+        "https://yaimaline.com/board.html",
+        "https://yaimaline.com/faq.html",
+        "https://yaimaline.com/spec.html",
+        "https://yaimaline.com/operations.html",
+        "https://japan.focustaiwan.tw/travel/202605290003"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-ganjin-osaka-shanghai",
+      "name": "大阪〜上海（鑑真号）",
+      "operator": "日中国際フェリー",
+      "operator_url": "https://www.shinganjin.com/",
+      "route_url": "https://www.shinganjin.com/schedule/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "大阪（大阪港国際フェリーターミナル）",
+          "lat": 34.64304,
+          "lon": 135.4212
+        },
+        {
+          "name": "上海（上海港 軍工路ターミナル）",
+          "lat": 31.33961,
+          "lon": 121.5304
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "旅客の車両航送の案内なし",
+      "bike": null,
+      "bicycle": null,
+      "overnight": true,
+      "overnight_note": "大阪を火曜午前に出航し、上海まで船中泊（旅客輸送再開時）",
+      "international": true,
+      "countries": [
+        "JP",
+        "CN"
+      ],
+      "prefectures": [
+        "大阪府"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "suspended",
+      "duration": "約2日",
+      "frequency": "週1便（神戸発着と隔週交互）",
+      "vessels": "鑑真号",
+      "osm": [
+        "way/369540510"
+      ],
+      "notes": "日中国際フェリーの鑑真号は毎週火曜に神戸・大阪を交互に出航する週1便。2025年6月にコロナ禍以来約5年半ぶりに旅客輸送を再開したが、中国側から「日中間の渡航の安全が確保できない」との申し入れがあり、2025年12月6日上海発便から旅客輸送を中断（再開時期未定、貨物輸送は継続）。上海側は軍工路ターミナル（座標は概略）。上海フェリーの蘇州號は引退済み。",
+      "sources": [
+        "https://www.shinganjin.com/news/%E6%97%85%E5%AE%A2%E8%BC%B8%E9%80%81%E4%B8%AD%E6%96%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E6%9A%82%E6%97%B6%E4%B8%AD%E6%96%AD%E6%97%85%E5%AE%A2%E8%BF%90%E8%BE%93%E7%9A%84%E5%85%AC/",
+        "https://www.shinganjin.com/schedule/",
+        "https://www.shinganjin.com/boarding-information/access.php"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "01-ganjin-kobe-shanghai",
+      "name": "神戸〜上海（鑑真号）",
+      "operator": "日中国際フェリー",
+      "operator_url": "https://www.shinganjin.com/",
+      "route_url": "https://www.shinganjin.com/schedule/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "神戸（神戸ポートターミナル）",
+          "lat": 34.68046,
+          "lon": 135.2029
+        },
+        {
+          "name": "上海（上海港 軍工路ターミナル）",
+          "lat": 31.33961,
+          "lon": 121.5304
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "旅客の車両航送の案内なし",
+      "bike": null,
+      "bicycle": null,
+      "overnight": true,
+      "overnight_note": "神戸を火曜午前に出航し、上海まで船中泊（旅客輸送再開時）",
+      "international": true,
+      "countries": [
+        "JP",
+        "CN"
+      ],
+      "prefectures": [
+        "兵庫県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "suspended",
+      "duration": "約2日",
+      "frequency": "週1便（大阪発着と隔週交互）",
+      "vessels": "鑑真号",
+      "osm": [
+        "way/1364823101"
+      ],
+      "notes": "日中国際フェリーの鑑真号は毎週火曜に神戸・大阪を交互に出航する週1便。2025年6月にコロナ禍以来約5年半ぶりに旅客輸送を再開したが、中国側から「日中間の渡航の安全が確保できない」との申し入れがあり、2025年12月6日上海発便から旅客輸送を中断（再開時期未定、貨物輸送は継続）。上海側は軍工路ターミナル（座標は概略）。上海フェリーの蘇州號は引退済み。神戸側は神戸ポートターミナル（新港第4突堤）。",
+      "sources": [
+        "https://www.shinganjin.com/news/%E6%97%85%E5%AE%A2%E8%BC%B8%E9%80%81%E4%B8%AD%E6%96%AD%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%EF%BC%88%E6%9A%82%E6%97%B6%E4%B8%AD%E6%96%AD%E6%97%85%E5%AE%A2%E8%BF%90%E8%BE%93%E7%9A%84%E5%85%AC/",
+        "https://www.shinganjin.com/schedule/",
+        "https://www.shinganjin.com/boarding-information/access.php"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

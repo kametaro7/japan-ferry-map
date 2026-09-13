@@ -1,0 +1,73 @@
+{
+  "region": "99_manual",
+  "updated": "2026-09-13",
+  "note": "担当エージェントの生成スクリプトで上書きされない、手作業で確認・追加した航路",
+  "routes": [
+    {
+      "id": "99-nagahara-tosen",
+      "name": "長原渡船（今切川）",
+      "operator": "松茂町（建設課）",
+      "operator_url": "https://www.town.matsushige.tokushima.jp/docs/2015111600214/",
+      "route_url": "",
+      "service": "waterbus",
+      "water": "river",
+      "ports": [
+        {"name": "長原渡船 今切川西岸の乗り場", "lat": 34.1131, "lon": 134.59511},
+        {"name": "長原渡船 今切川東岸の乗り場", "lat": 34.11345, "lon": 134.59848}
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": ["JP"],
+      "prefectures": ["徳島県"],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約2分",
+      "frequency": "6:30〜18:30に随時運航（9:30〜10:00、10:30〜11:00、11:30〜13:00は運航なし）",
+      "vessels": "渡船",
+      "osm": ["way/382690456"],
+      "notes": "徳島市川内町米津と松茂町長原を結ぶ無料の町営渡船で、徳島県道219号古川長原港線の一部。どちらの乗り場がどちらの地区かは確認できていないため、乗り場名は川の岸で表記。",
+      "sources": ["https://www.town.matsushige.tokushima.jp/docs/2015111600214/"],
+      "confidence": "medium"
+    },
+    {
+      "id": "99-yagiri-no-watashi",
+      "name": "矢切の渡し（柴又〜矢切）",
+      "operator": "矢切渡船",
+      "operator_url": "https://www.katsushika-kanko.com/guide/scene/96.html",
+      "route_url": "https://www.matsudo-kankou.jp/sightseeing/%E7%9F%A2%E5%88%87%E3%81%AE%E6%B8%A1%E3%81%97/",
+      "service": "waterbus",
+      "water": "river",
+      "ports": [
+        {"name": "柴又（葛飾区）", "lat": 35.76001, "lon": 139.88242},
+        {"name": "矢切（松戸市）", "lat": 35.75947, "lon": 139.88376}
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": ["JP"],
+      "prefectures": ["東京都", "千葉県"],
+      "seasonal": true,
+      "season_note": "3月中旬〜11月は毎日（7・8月は月・火運休、祝日は運航）、12月〜3月上旬は土日祝のみ（1月1〜7日は運航）。荒天時は運休",
+      "status": "active",
+      "duration": "約10分",
+      "frequency": "10:00〜16:00頃に随時運航",
+      "vessels": "手漕ぎ／エンジン付きの渡し舟",
+      "osm": ["way/55094062", "way/415009702"],
+      "notes": "江戸川を渡る、都内に唯一残る渡し。運航者に独自の公式サイトが無いため、葛飾区観光サイトと松戸市観光協会の案内ページをリンク。料金は大人300円・小人100円（松戸市観光協会）。",
+      "sources": ["https://www.katsushika-kanko.com/guide/scene/96.html", "https://www.matsudo-kankou.jp/sightseeing/%E7%9F%A2%E5%88%87%E3%81%AE%E6%B8%A1%E3%81%97/"],
+      "confidence": "medium"
+    }
+  ]
+}

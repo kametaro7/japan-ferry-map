@@ -1,0 +1,1644 @@
+{
+  "region": "09_ehime",
+  "updated": "2026-09-13",
+  "routes": [
+    {
+      "id": "09-yawatahama-beppu",
+      "name": "八幡浜〜別府",
+      "operator": "宇和島運輸",
+      "operator_url": "https://www.uwajimaunyu.co.jp/",
+      "route_url": "https://www.uwajimaunyu.co.jp/timetable/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "八幡浜",
+          "lat": 33.4582,
+          "lon": 132.4151
+        },
+        {
+          "name": "別府",
+          "lat": 33.30014,
+          "lon": 131.5036
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "深夜便あり（八幡浜0:20発→別府3:10着、別府23:50発→八幡浜2:35着）。別府23:50発の便は到着後5:30まで船内休憩でき、乗用車のまま休憩も可（電話予約時に申込）。",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県",
+        "大分県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約2時間50分",
+      "frequency": "1日6往復",
+      "vessels": "フェリー",
+      "osm": [
+        "way/405059463"
+      ],
+      "notes": "航路距離89km。GW・お盆等は船内休憩できない場合あり。",
+      "sources": [
+        "https://www.uwajimaunyu.co.jp/timetable/",
+        "https://www.uwajimaunyu.co.jp/fare/",
+        "https://www.shikoku-ships.jp/route/images/other04.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-yawatahama-usuki-uwajimaunyu",
+      "name": "八幡浜〜臼杵（宇和島運輸）",
+      "operator": "宇和島運輸",
+      "operator_url": "https://www.uwajimaunyu.co.jp/",
+      "route_url": "https://www.uwajimaunyu.co.jp/timetable/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "八幡浜",
+          "lat": 33.45846,
+          "lon": 132.41473
+        },
+        {
+          "name": "臼杵",
+          "lat": 33.12649,
+          "lon": 131.81053
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "深夜便あり（八幡浜22:00発・23:50発、臼杵0:55発・2:40発→八幡浜5:00着）。",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県",
+        "大分県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約2時間25分",
+      "frequency": "1日7往復（土曜・日曜・月曜に休航便あり）",
+      "vessels": "フェリー",
+      "osm": [
+        "way/412851835"
+      ],
+      "notes": "同区間を四国開発フェリー（オレンジフェリー九四航路）も別に運航。航路距離67km。",
+      "sources": [
+        "https://www.uwajimaunyu.co.jp/timetable/",
+        "https://www.uwajimaunyu.co.jp/fare/",
+        "https://www.shikoku-ships.jp/route/images/other04.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-yawatahama-usuki-orange",
+      "name": "八幡浜〜臼杵（オレンジフェリー九四航路）",
+      "operator": "四国開発フェリー（オレンジフェリー／旧 九四オレンジフェリー）",
+      "operator_url": "https://www.orange-ferry.co.jp/",
+      "route_url": "https://www.orange-ferry.co.jp/time-table/kyuushi/yawatahama-usuki/index.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "八幡浜",
+          "lat": 33.45846,
+          "lon": 132.41473
+        },
+        {
+          "name": "臼杵",
+          "lat": 33.12649,
+          "lon": 131.81053
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": null,
+      "overnight": true,
+      "overnight_note": "深夜便あり（八幡浜1:15発・2:50発、臼杵22:20発・23:55発）。八幡浜2:50発（102便）は臼杵到着後7:00まで船内休憩可（車両は到着時に下船、繁忙期は6:30まで、日曜は不可）。",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県",
+        "大分県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約2時間25分",
+      "frequency": "1日7往復（曜日により一部休航）",
+      "vessels": "フェリー",
+      "osm": [
+        "way/412851835"
+      ],
+      "notes": "曜日別ダイヤ（月〜金・土・日）。指定便は危険物車両も乗船可。",
+      "sources": [
+        "https://www.orange-ferry.co.jp/time-table/kyuushi/yawatahama-usuki/index.html",
+        "https://www.shikoku-ships.jp/route/images/other04.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-misaki-saganoseki",
+      "name": "三崎〜佐賀関（国道九四フェリー）",
+      "operator": "国道九四フェリー",
+      "operator_url": "https://www.koku94.jp/",
+      "route_url": "https://www.koku94.jp/operation/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "三崎",
+          "lat": 33.39039,
+          "lon": 132.11757
+        },
+        {
+          "name": "佐賀関",
+          "lat": 33.24995,
+          "lon": 131.86526
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県",
+        "大分県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約1時間10分",
+      "frequency": "1日16往復（三崎発 毎時30分 7:30〜23:30、佐賀関発 毎時00分 7:00〜23:00）",
+      "vessels": "フェリー",
+      "osm": [
+        "way/79686419"
+      ],
+      "notes": "最終便は三崎23:30発→佐賀関0:40着、佐賀関23:00発→三崎0:10着（船中泊の便ではない）。繁忙期は臨時便あり。",
+      "sources": [
+        "https://www.koku94.jp/operation/",
+        "https://www.koku94.jp/price/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-yawatahama-oshima",
+      "name": "八幡浜〜大島",
+      "operator": "田中輸送",
+      "operator_url": "https://tanakayuso.co.jp/",
+      "route_url": "https://tanakayuso.co.jp/timetable-fares/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "八幡浜（大島行きのりば）",
+          "lat": 33.45952,
+          "lon": 132.41812
+        },
+        {
+          "name": "大島（八幡浜市）",
+          "lat": 33.38581,
+          "lon": 132.3414
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約25分",
+      "frequency": "1日3往復（第2・第4日曜は第3便運休、1/1・1/2は全便休航）",
+      "vessels": "旅客船",
+      "osm": [
+        "way/1036709555"
+      ],
+      "notes": "八幡浜市の離島・大島への定期船。自転車・125cc未満〜750cc以上の二輪車は手荷物料金で積載可。",
+      "sources": [
+        "https://tanakayuso.co.jp/timetable-fares/",
+        "https://www.shikoku-ships.jp/route/images/other04.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-nagahama-aoshima",
+      "name": "長浜〜青島（定期船あおしま）",
+      "operator": "青島海運",
+      "operator_url": "https://www.city.ozu.ehime.jp/soshiki/nagahamash/0375.html",
+      "route_url": "https://www.city.ozu.ehime.jp/soshiki/nagahamash/0375.html",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "長浜",
+          "lat": 33.61567,
+          "lon": 132.48526
+        },
+        {
+          "name": "青島",
+          "lat": 33.73644,
+          "lon": 132.48786
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約35分",
+      "frequency": "1日2往復",
+      "vessels": "旅客船（あおしま）",
+      "osm": [
+        "way/494684538"
+      ],
+      "notes": "猫の島として知られる青島への定期船。2便合計で1日34名までの定員制で島民優先、観光客は先着順（連休等は満船が多い）。2026年10月1日〜13日はドックのため全便運休。事業者の公式サイトが無いため大洲市の案内ページを掲載。",
+      "sources": [
+        "https://www.city.ozu.ehime.jp/soshiki/nagahamash/0375.html",
+        "https://www.shikoku-ships.jp/route/images/other02.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-uwajima-komobuchi-tojima-kashima",
+      "name": "宇和島〜蒋淵・大島・戸島・嘉島（高速艇ゆきかぜ・循環）",
+      "operator": "盛運汽船",
+      "operator_url": "http://www.seiunkisen.co.jp/",
+      "route_url": "http://www.seiunkisen.co.jp/unkouannai.html",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "宇和島（新内港）",
+          "lat": 33.22116,
+          "lon": 132.55743
+        },
+        {
+          "name": "蒋淵",
+          "lat": 33.19678,
+          "lon": 132.40661
+        },
+        {
+          "name": "大島（蒋淵）",
+          "lat": 33.18632,
+          "lon": 132.40316
+        },
+        {
+          "name": "戸島",
+          "lat": 33.19778,
+          "lon": 132.35987
+        },
+        {
+          "name": "小内浦",
+          "lat": 33.20395,
+          "lon": 132.36845
+        },
+        {
+          "name": "矢ヶ浜",
+          "lat": 33.20163,
+          "lon": 132.39345
+        },
+        {
+          "name": "嘉島",
+          "lat": 33.22872,
+          "lon": 132.36402
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "一周約1時間40分",
+      "frequency": "1日3便（1便は嘉島回り、2・3便は蒋淵回り）",
+      "vessels": "高速艇（ゆきかぜ）",
+      "osm": [
+        "way/409296334",
+        "way/930248202",
+        "way/930249514",
+        "way/930250344",
+        "way/930469632",
+        "way/930469634",
+        "way/930469635",
+        "way/930469639",
+        "way/930469636",
+        "way/930469637"
+      ],
+      "notes": "宇和島新内港から宇和海の島・半島部を回って宇和島へ戻る循環運航。OSMでは旧船名「あさかぜ」。https はサーバ証明書不一致のため http の公式サイトを掲載。",
+      "sources": [
+        "http://www.seiunkisen.co.jp/unkouannai.html",
+        "https://seiunkisen.hatenablog.com/",
+        "https://www.shikoku-ships.jp/route/images/other04.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-uwajima-hiburijima",
+      "name": "宇和島〜日振島（喜路・明海・能登）（高速艇しおかぜ・循環）",
+      "operator": "盛運汽船",
+      "operator_url": "http://www.seiunkisen.co.jp/",
+      "route_url": "http://www.seiunkisen.co.jp/unkouannai.html",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "宇和島（新内港）",
+          "lat": 33.22109,
+          "lon": 132.55744
+        },
+        {
+          "name": "喜路（日振島）",
+          "lat": 33.1518,
+          "lon": 132.30669
+        },
+        {
+          "name": "明海（日振島）",
+          "lat": 33.17115,
+          "lon": 132.29249
+        },
+        {
+          "name": "能登（日振島）",
+          "lat": 33.1744,
+          "lon": 132.26882
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "宇和島〜日振島 約40〜45分、一周約1時間45分",
+      "frequency": "1日3便（便により能登回り・喜路回り）",
+      "vessels": "高速艇（しおかぜ）",
+      "osm": [
+        "way/930469638",
+        "way/930469641",
+        "way/930469642",
+        "way/930469643"
+      ],
+      "notes": "夏期（5/1〜9/30）は1便が30分早い（宇和島6:00発）。https はサーバ証明書不一致のため http の公式サイトを掲載。",
+      "sources": [
+        "http://www.seiunkisen.co.jp/unkouannai.html",
+        "https://seiunkisen.hatenablog.com/",
+        "https://www.shikoku-ships.jp/route/images/other04.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-uwajima-shirasagi",
+      "name": "宇和島〜嘉島〜戸島〜日振島（普通船しらさぎ・循環）",
+      "operator": "盛運汽船",
+      "operator_url": "http://www.seiunkisen.co.jp/",
+      "route_url": "http://www.seiunkisen.co.jp/unkouannai.html",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "宇和島（新内港）",
+          "lat": 33.22144,
+          "lon": 132.55739
+        },
+        {
+          "name": "嘉島",
+          "lat": 33.22872,
+          "lon": 132.36402
+        },
+        {
+          "name": "小内浦",
+          "lat": 33.20395,
+          "lon": 132.36845
+        },
+        {
+          "name": "戸島",
+          "lat": 33.19778,
+          "lon": 132.35987
+        },
+        {
+          "name": "喜路（日振島）",
+          "lat": 33.1518,
+          "lon": 132.30669
+        },
+        {
+          "name": "明海（日振島）",
+          "lat": 33.17115,
+          "lon": 132.29249
+        },
+        {
+          "name": "能登（日振島）",
+          "lat": 33.1744,
+          "lon": 132.26882
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "一周約4時間15分",
+      "frequency": "1日1便（木・土・日・祝は休航）",
+      "vessels": "普通船（貨客船しらさぎ）",
+      "osm": [
+        "way/930244398",
+        "way/930244396",
+        "way/930242708",
+        "way/930242097",
+        "way/930240701",
+        "way/930240703",
+        "way/930240705"
+      ],
+      "notes": "宇和島13:10発の循環便。高速艇より運賃が安い。",
+      "sources": [
+        "http://www.seiunkisen.co.jp/unkouannai.html",
+        "https://seiunkisen.hatenablog.com/",
+        "https://www.shikoku-ships.jp/route/images/other04.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-funakoshi-kashima",
+      "name": "船越〜鹿島（鹿島渡し）",
+      "operator": "西海観光船（愛南町）",
+      "operator_url": "https://nishiumi.info/",
+      "route_url": "https://nishiumi.info/liner-route-kashima.html",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "船越（西海観光船のりば）",
+          "lat": 32.94878,
+          "lon": 132.49956
+        },
+        {
+          "name": "鹿島（愛南町）",
+          "lat": 32.95106,
+          "lon": 132.45684
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": true,
+      "season_note": "夏季のみ（2026年は7月18日〜8月31日）",
+      "status": "active",
+      "duration": "約15分",
+      "frequency": "船越発8:30から1時間ごと",
+      "vessels": "旅客船",
+      "osm": [
+        "way/1067582461"
+      ],
+      "notes": "無人島・鹿島（海水浴場・キャンプ場）への夏季特別航路。予約不可・受付順。四国旅客船協会の航路図では事業者は愛南町。荒天時欠航。",
+      "sources": [
+        "https://nishiumi.info/liner-route-kashima.html",
+        "https://www.town.ainan.ehime.jp/kanko/sightseeing/zekkei/kaiikikoen-kashima.html",
+        "https://www.shikoku-ships.jp/route/images/other04.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-nishiumi-glassboat",
+      "name": "西海観光船 海底が見える船（船越発着・宇和海海域公園）",
+      "operator": "西海観光船",
+      "operator_url": "https://nishiumi.info/",
+      "route_url": "https://nishiumi.info/sightseeing-boat.html",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "船越（西海観光船のりば）",
+          "lat": 32.94878,
+          "lon": 132.49956
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "9:00〜16:00の毎時00分発（予約不要、1名から運航）",
+      "vessels": "海中展望船（ユメカイナ・ガイヤナ2）",
+      "osm": [],
+      "notes": "足摺宇和海国立公園のサンゴ群生地を巡る周遊。荒天・透明度不良時は欠航。15名以上は予約。11月頃〜4月末は冬コース。",
+      "sources": [
+        "https://nishiumi.info/sightseeing-boat.html",
+        "https://nishiumi.info/",
+        "https://www.town.ainan.ehime.jp/kanko/sightseeing/zekkei/kaiikikoen-kashima.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-takahama-yura",
+      "name": "高浜〜由良（興居島）",
+      "operator": "ごごしま",
+      "operator_url": "https://gogoshima-ferry.com/",
+      "route_url": "https://gogoshima-ferry.com/timetable_faretable",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "高浜",
+          "lat": 33.88338,
+          "lon": 132.70085
+        },
+        {
+          "name": "由良（興居島）",
+          "lat": 33.90244,
+          "lon": 132.68179
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約13分",
+      "frequency": "1日14往復",
+      "vessels": "フェリー（ミソラ）",
+      "osm": [
+        "way/572267406"
+      ],
+      "notes": "7月第3日曜〜8月第3日曜は船越港を経由。12/31〜1/3は運休。",
+      "sources": [
+        "https://gogoshima-ferry.com/timetable_faretable",
+        "https://www.shikoku-ships.jp/route/images/other02.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-takahama-tomari",
+      "name": "高浜〜泊（興居島）",
+      "operator": "ごごしま",
+      "operator_url": "https://gogoshima-ferry.com/",
+      "route_url": "https://gogoshima-ferry.com/timetable_faretable",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "高浜",
+          "lat": 33.88338,
+          "lon": 132.70085
+        },
+        {
+          "name": "泊（興居島）",
+          "lat": 33.88233,
+          "lon": 132.6813
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約10分",
+      "frequency": "1日14往復",
+      "vessels": "フェリー（しとらす）",
+      "osm": [
+        "way/563982816"
+      ],
+      "notes": "7月第3日曜〜8月第3日曜は船越港を経由。12/31〜1/3は運休。",
+      "sources": [
+        "https://gogoshima-ferry.com/timetable_faretable",
+        "https://www.shikoku-ships.jp/route/images/other02.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-nakajima-east",
+      "name": "松山（三津浜・高浜）〜睦月島〜野忽那島〜中島（大浦）［中島汽船 東線］",
+      "operator": "中島汽船",
+      "operator_url": "http://www.nakajimakisen.co.jp/",
+      "route_url": "http://www.nakajimakisen.co.jp/contents/time-table.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "三津浜",
+          "lat": 33.86575,
+          "lon": 132.70949
+        },
+        {
+          "name": "高浜",
+          "lat": 33.88338,
+          "lon": 132.70085
+        },
+        {
+          "name": "松山観光港",
+          "lat": 33.88951,
+          "lon": 132.70374
+        },
+        {
+          "name": "睦月",
+          "lat": 33.95607,
+          "lon": 132.6659
+        },
+        {
+          "name": "野忽那",
+          "lat": 33.97535,
+          "lon": 132.68801
+        },
+        {
+          "name": "大浦（中島）",
+          "lat": 33.97274,
+          "lon": 132.63056
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "松山側で車両（二輪・自転車含む）の乗降ができるのは三津浜港のみ。潮位により車両の乗降ができない港あり。三津浜・神浦以外は車両のみ予約可。",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "フェリー 三津浜〜大浦 約1時間20分／高速船 高浜〜大浦 約40分",
+      "frequency": "フェリー1日5往復、高速船は一部運休中で1日2往復（通常5往復）",
+      "vessels": "フェリー（ななしま）・高速船",
+      "osm": [
+        "way/987806887",
+        "way/988708941",
+        "way/572267407",
+        "way/988708940",
+        "way/572267412",
+        "way/988708905"
+      ],
+      "notes": "高速船は2025年2月から船員不足で一部便運休（2026年1月予定だった再開は延期）。高速船の松山側発着は高浜港のみ。2026年8月24日〜10月9日は野忽那港岸壁工事で一部便の乗降不可。https はサーバ証明書不一致のため http の公式サイトを掲載。",
+      "sources": [
+        "http://www.nakajimakisen.co.jp/contents/time-table.html",
+        "http://www.nakajimakisen.co.jp/",
+        "http://www.nakajimakisen.co.jp/contents/pdf/20251010.pdf",
+        "http://www.nakajimakisen.co.jp/contents/pdf/20260128.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-nakajima-west",
+      "name": "松山（三津浜・高浜）〜釣島〜中島（神浦）〜二神島〜津和地島〜怒和島〜中島（西中）［中島汽船 西線］",
+      "operator": "中島汽船",
+      "operator_url": "http://www.nakajimakisen.co.jp/",
+      "route_url": "http://www.nakajimakisen.co.jp/contents/time-table.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "三津浜",
+          "lat": 33.86575,
+          "lon": 132.70949
+        },
+        {
+          "name": "高浜",
+          "lat": 33.88338,
+          "lon": 132.70085
+        },
+        {
+          "name": "釣島",
+          "lat": 33.89431,
+          "lon": 132.64001
+        },
+        {
+          "name": "神浦（中島）",
+          "lat": 33.94969,
+          "lon": 132.60435
+        },
+        {
+          "name": "二神島",
+          "lat": 33.93375,
+          "lon": 132.53695
+        },
+        {
+          "name": "津和地島",
+          "lat": 33.98307,
+          "lon": 132.51643
+        },
+        {
+          "name": "元怒和（怒和島）",
+          "lat": 33.97492,
+          "lon": 132.54042
+        },
+        {
+          "name": "上怒和（怒和島）",
+          "lat": 33.98676,
+          "lon": 132.55784
+        },
+        {
+          "name": "西中（中島）",
+          "lat": 33.98456,
+          "lon": 132.60465
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "松山側で車両（二輪・自転車含む）の乗降ができるのは三津浜港のみ。潮位により車両の乗降ができない港あり。満車時は神和方面行きを優先。",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "フェリー 三津浜〜西中 約2時間30分／高速船 高浜〜二神 約1時間15分",
+      "frequency": "フェリー1日2往復、高速船は一部運休中で1日3往復（通常5往復）",
+      "vessels": "フェリー（じんわ）・高速船",
+      "osm": [
+        "way/987806887",
+        "way/495700798",
+        "way/495700800",
+        "way/988027591",
+        "way/988027606",
+        "way/988027618",
+        "way/988027619",
+        "way/988027626",
+        "way/988027639"
+      ],
+      "notes": "高速船（高浜発着、神浦・怒和島・津和地島・二神島を循環）は2025年2月から一部運休、再開時期は未定。https はサーバ証明書不一致のため http の公式サイトを掲載。",
+      "sources": [
+        "http://www.nakajimakisen.co.jp/contents/time-table.html",
+        "http://www.nakajimakisen.co.jp/",
+        "http://www.nakajimakisen.co.jp/contents/pdf/20251010.pdf",
+        "http://www.nakajimakisen.co.jp/contents/pdf/20260128.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-mitsu-no-watashi",
+      "name": "三津の渡し（三津〜港山）",
+      "operator": "松山市",
+      "operator_url": "https://www.city.matsuyama.ehime.jp/shisetsu/kuko/mituwatasi.html",
+      "route_url": "https://www.city.matsuyama.ehime.jp/shisetsu/kuko/mituwatasi.html",
+      "service": "waterbus",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "三津",
+          "lat": 33.86718,
+          "lon": 132.71278
+        },
+        {
+          "name": "港山",
+          "lat": 33.86793,
+          "lon": 132.71283
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "数分（約80m）",
+      "frequency": "7:00〜19:00 随時運航（年中無休）",
+      "vessels": "小型渡船",
+      "osm": [
+        "way/152436606"
+      ],
+      "notes": "松山港内港を渡る無料の市営渡船（市道の一部）。自転車は自分で積み降ろしできる場合のみ可。荒天時運休。",
+      "sources": [
+        "https://www.city.matsuyama.ehime.jp/shisetsu/kuko/mituwatasi.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-hojo-kashima",
+      "name": "北条〜鹿島（鹿島渡船）",
+      "operator": "松山市",
+      "operator_url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/kashima/tosen.html",
+      "route_url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/kashima/tosen.html",
+      "service": "waterbus",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "北条（鹿島渡船待合所）",
+          "lat": 33.97473,
+          "lon": 132.76987
+        },
+        {
+          "name": "鹿島（松山市）",
+          "lat": 33.97397,
+          "lon": 132.76691
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": false,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "数分",
+      "frequency": "4〜11月は20分間隔、12〜3月は30分間隔（朝7時台から夕方まで）",
+      "vessels": "渡船",
+      "osm": [
+        "way/585247709"
+      ],
+      "notes": "鹿島公園（海水浴場・展望台）への市営渡船。運賃は往復制。自転車の持ち込み不可（輪行袋は可）。四国旅客船協会の一覧では「中須賀〜鹿島」。",
+      "sources": [
+        "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/kashima/tosen.html",
+        "https://www.pref.ehime.jp/site/chuyo/4766.html",
+        "https://www.shikoku-ships.jp/route/images/other02.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-kashima-ai-no-koro",
+      "name": "鹿島周遊船「愛の航路」（鹿島発着）",
+      "operator": "松山市",
+      "operator_url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/kashima/tosen.html",
+      "route_url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/kashima/tosen.html",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "鹿島（松山市）",
+          "lat": 33.97397,
+          "lon": 132.76691
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": true,
+      "season_note": "4月〜11月運航（12月〜3月は運休）",
+      "status": "active",
+      "duration": "約30分",
+      "frequency": "1日1便（14:15発）",
+      "vessels": "周遊船",
+      "osm": [],
+      "notes": "鹿島周辺を巡る市営の周遊船。",
+      "sources": [
+        "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/kashima/tosen.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-hojo-aijima",
+      "name": "北条〜安居島",
+      "operator": "新喜峰",
+      "operator_url": "https://www.pref.ehime.jp/site/chuyo/4770.html",
+      "route_url": "https://www.pref.ehime.jp/site/chuyo/4770.html",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "北条",
+          "lat": 33.97536,
+          "lon": 132.77166
+        },
+        {
+          "name": "安居島",
+          "lat": 34.06819,
+          "lon": 132.7053
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約35分",
+      "frequency": "1日1往復（水曜・第1土曜は2往復、8月1日〜20日は2往復）",
+      "vessels": "旅客船（あいほく）",
+      "osm": [
+        "way/500415801"
+      ],
+      "notes": "事業者の公式サイトが無いため愛媛県中予地方局の案内ページ（2023年11月更新）を掲載。1月2日は運休。",
+      "sources": [
+        "https://www.pref.ehime.jp/site/chuyo/4770.html",
+        "https://www.shikoku-ships.jp/route/images/other02.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "09-niihama-kuroshima-oshima",
+      "name": "黒島〜大島（新居浜市営渡海船）",
+      "operator": "新居浜市",
+      "operator_url": "https://www.city.niihama.lg.jp/soshiki/koutsu/tokaisenjikokuhyo.html",
+      "route_url": "https://www.city.niihama.lg.jp/soshiki/koutsu/tokaisenjikokuhyo.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "黒島",
+          "lat": 33.98387,
+          "lon": 133.34691
+        },
+        {
+          "name": "大島（新居浜市）",
+          "lat": 33.99371,
+          "lon": 133.36509
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "四国旅客船協会の航路一覧で自動車航送船（F）。車両運賃・搭載台数は市の公開ページに記載なし。",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約15分",
+      "frequency": "1日13往復",
+      "vessels": "フェリー（おおしま7・くろしま）",
+      "osm": [
+        "way/566686104"
+      ],
+      "notes": "時刻表は令和5年10月1日改正のもの。",
+      "sources": [
+        "https://www.city.niihama.lg.jp/soshiki/koutsu/tokaisenjikokuhyo.html",
+        "https://www.city.niihama.lg.jp/uploaded/life/120215_573132_misc.pdf",
+        "https://www.shikoku-ships.jp/route/images/other02.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "09-sekizen-ferry",
+      "name": "今治〜大下島〜小大下島〜岡村島（せきぜん渡船 フェリー）",
+      "operator": "今治市（せきぜん渡船）",
+      "operator_url": "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/",
+      "route_url": "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/sekizen-r804.pdf",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "今治（小型フェリー桟橋）",
+          "lat": 34.07049,
+          "lon": 133.00505
+        },
+        {
+          "name": "大下島",
+          "lat": 34.1888,
+          "lon": 132.92219
+        },
+        {
+          "name": "小大下島",
+          "lat": 34.19038,
+          "lon": 132.89958
+        },
+        {
+          "name": "岡村（岡村島）",
+          "lat": 34.18448,
+          "lon": 132.88391
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "フェリー「第二せきぜん」は自動車10台程度。毎月第2火・第4火・第4水曜の一部便は危険物運送便（一般旅客・車両も乗船可、旅客は25人まで）。",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約1時間20分",
+      "frequency": "1日4往復（一部便は大下・小大下に寄港しない）",
+      "vessels": "フェリー（第二せきぜん）",
+      "osm": [
+        "way/369489093",
+        "way/43007718",
+        "way/43007719",
+        "way/1259598041"
+      ],
+      "notes": "2026年4月1日から当面の間、船員不足のため毎週月曜・木曜は全便運休。関前諸島（今治市）の生活航路。",
+      "sources": [
+        "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/",
+        "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/sekizen-r804.pdf",
+        "https://www.shikoku-ships.jp/route/images/other03.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-sekizen-tobishima",
+      "name": "今治〜宗方（大三島）〜大下島〜小大下島〜岡村島（せきぜん渡船 旅客船）",
+      "operator": "今治市（せきぜん渡船）",
+      "operator_url": "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/",
+      "route_url": "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/sekizen-r804.pdf",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "今治",
+          "lat": 34.07076,
+          "lon": 133.00588
+        },
+        {
+          "name": "宗方（大三島）",
+          "lat": 34.20311,
+          "lon": 132.94287
+        },
+        {
+          "name": "大下島",
+          "lat": 34.1888,
+          "lon": 132.92219
+        },
+        {
+          "name": "小大下島",
+          "lat": 34.19038,
+          "lon": 132.89958
+        },
+        {
+          "name": "岡村（岡村島）",
+          "lat": 34.18448,
+          "lon": 132.88391
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約1時間",
+      "frequency": "1日4往復",
+      "vessels": "旅客船（とびしま）",
+      "osm": [
+        "way/699488574",
+        "way/699488573",
+        "way/43007718",
+        "way/43007719"
+      ],
+      "notes": "自転車は8台程度まで。宗方で大三島ブルーラインの木江（広島県大崎上島）行きフェリーと接続し、今治〜木江の乗継便として利用可（車は不可）。",
+      "sources": [
+        "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/",
+        "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/sekizen-r804.pdf",
+        "http://omishima-bl.net/",
+        "https://www.shikoku-ships.jp/route/images/other03.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-munakata-okamura",
+      "name": "宗方（大三島）〜岡村（岡村島）",
+      "operator": "大三島ブルーライン",
+      "operator_url": "http://omishima-bl.net/",
+      "route_url": "http://omishima-bl.net/#schedule",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "宗方（大三島）",
+          "lat": 34.20311,
+          "lon": 132.94287
+        },
+        {
+          "name": "岡村（岡村島）",
+          "lat": 34.18448,
+          "lon": 132.88391
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約23分",
+      "frequency": "1日5往復",
+      "vessels": "フェリー（みしま）",
+      "osm": [
+        "way/699488572"
+      ],
+      "notes": "しまなみ海道（大三島）と安芸灘とびしま海道（岡村島）を結ぶ。同社の今治〜宗方〜木江便とは別の系統。",
+      "sources": [
+        "http://omishima-bl.net/",
+        "https://www.city.imabari.ehime.jp/kanko/access/imabari.html",
+        "https://www.shikoku-ships.jp/route/images/other03.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "09-sachi-tsushima",
+      "name": "幸（大島）〜津島（さざなみ渡船）",
+      "operator": "今治市（さざなみ渡船）",
+      "operator_url": "https://www.city.imabari.ehime.jp/kotsus/tosen/sazanami/",
+      "route_url": "https://www.city.imabari.ehime.jp/kotsus/tosen/sazanami/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "幸（大島）",
+          "lat": 34.15021,
+          "lon": 133.0398
+        },
+        {
+          "name": "津島",
+          "lat": 34.15399,
+          "lon": 133.00596
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約10分",
+      "frequency": "1日3往復",
+      "vessels": "旅客船",
+      "osm": [
+        "way/509602695"
+      ],
+      "notes": "時刻表は平成19年4月改正のまま掲載（市の現行ページ）。自転車は追加料金で持ち込み可。",
+      "sources": [
+        "https://www.city.imabari.ehime.jp/chiiki/tosen/sazanami/",
+        "https://www.city.imabari.ehime.jp/kanko/access/imabari.html",
+        "https://www.shikoku-ships.jp/route/images/other03.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "09-tsushima-imabari",
+      "name": "津島〜今治（津島渡船）",
+      "operator": "津島渡船",
+      "operator_url": "https://www.city.imabari.ehime.jp/kanko/access/imabari.html",
+      "route_url": "https://www.city.imabari.ehime.jp/kanko/access/imabari-tsusima.pdf",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "津島",
+          "lat": 34.15399,
+          "lon": 133.00596
+        },
+        {
+          "name": "今治",
+          "lat": 34.06998,
+          "lon": 133.0049
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約30分",
+      "frequency": "1日1往復（津島8:00発、今治12:10発）",
+      "vessels": "旅客船",
+      "osm": [],
+      "notes": "事業者の公式サイトが無いため今治市の交通案内ページを掲載（時刻表PDFは平成19年改正、運賃は平成26年改正）。今治での乗り場の桟橋は未確認。",
+      "sources": [
+        "https://www.city.imabari.ehime.jp/kanko/access/imabari-tsusima.pdf",
+        "https://www.city.imabari.ehime.jp/kanko/access/imabari.html",
+        "https://www.shikoku-ships.jp/route/images/other03.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "09-hashihama-umashima",
+      "name": "波止浜〜来島〜小島〜馬島（くるしま）",
+      "operator": "くるしま",
+      "operator_url": "https://www.city.imabari.ehime.jp/kanko/access/imabari.html",
+      "route_url": "https://www.city.imabari.ehime.jp/kanko/access/kurushima.pdf",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "波止浜",
+          "lat": 34.10956,
+          "lon": 132.96909
+        },
+        {
+          "name": "来島",
+          "lat": 34.11696,
+          "lon": 132.97024
+        },
+        {
+          "name": "小島",
+          "lat": 34.12287,
+          "lon": 132.97653
+        },
+        {
+          "name": "馬島",
+          "lat": 34.11657,
+          "lon": 132.99081
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "波止浜〜馬島 約20分",
+      "frequency": "1日8〜9便（一部便は来島・小島止まり）",
+      "vessels": "旅客船",
+      "osm": [
+        "way/511211418"
+      ],
+      "notes": "事業者（有限会社くるしま）の公式サイトが無いため今治市の交通案内ページを掲載。時刻表は令和7年10月1日改正。自転車持ち込み可。小島は芸予要塞跡の観光地。",
+      "sources": [
+        "https://www.city.imabari.ehime.jp/kanko/access/kurushima.pdf",
+        "https://www.city.imabari.ehime.jp/kanko/access/imabari.html",
+        "https://www.shikoku-ships.jp/route/images/other03.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "09-miyakubo-ushima-oura",
+      "name": "宮窪（大島）〜鵜島〜尾浦（伯方島）",
+      "operator": "シーセブン",
+      "operator_url": "https://www.city.imabari.ehime.jp/kanko/access/imabari.html",
+      "route_url": "https://www.city.imabari.ehime.jp/kanko/access/pdf/ship_hakata-oshima.pdf",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "宮窪（大島）",
+          "lat": 34.17565,
+          "lon": 133.07754
+        },
+        {
+          "name": "鵜島",
+          "lat": 34.18314,
+          "lon": 133.08794
+        },
+        {
+          "name": "尾浦（伯方島）",
+          "lat": 34.19918,
+          "lon": 133.10357
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "車長6m未満まで（運賃表）。先着順で事前予約不可。代船（高速船）運航時は車両・二輪車不可。",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "尾浦〜宮窪 約25分（鵜島経由）",
+      "frequency": "1日7往復（日祝は最終便運休）",
+      "vessels": "フェリー",
+      "osm": [
+        "way/566691956"
+      ],
+      "notes": "事業者の公式サイトが無いため今治市の交通案内ページを掲載（時刻表PDFは平成31年4月現在、運賃は令和元年10月改正）。",
+      "sources": [
+        "https://www.city.imabari.ehime.jp/kanko/access/pdf/ship_hakata-oshima.pdf",
+        "https://www.city.imabari.ehime.jp/kanko/access/imabari.html",
+        "https://www.shikoku-ships.jp/route/images/other03.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "09-shimanami-kurushima-cruise",
+      "name": "しまなみ来島海峡遊覧船（下田水港発着）",
+      "operator": "しまなみ（株式会社しまなみ）",
+      "operator_url": "https://imabari-shimanami.jp/",
+      "route_url": "https://imabari-shimanami.jp/kyuuryuu/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "下田水港（道の駅よしうみいきいき館）",
+          "lat": 34.12773,
+          "lon": 133.0199
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約50分",
+      "frequency": "営業時間内に60〜75分間隔（出航時刻は潮流・予約状況で日々変動、Web予約ページで確認）",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "来島海峡の急流と武志島・馬島・小島・来島・波止浜湾を巡る周遊。旧称「来島海峡急流観潮船」。予約なしでも空席があれば当日乗船可、最少催行2名。",
+      "sources": [
+        "https://imabari-shimanami.jp/kyuuryuu/",
+        "https://www.city.imabari.ehime.jp/kanko/spot/?a=181",
+        "https://www.oideya.gr.jp/spot-c/tyoryu_yoshiumi/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "09-miyakubo-noshima-tidal-cruise",
+      "name": "能島潮流体験船「能島潮流丸」（宮窪・村上海賊ミュージアム前発着）",
+      "operator": "能島水軍（物産館兼魚食レストラン）",
+      "operator_url": "https://www.noshimasuigun.com/",
+      "route_url": "https://www.noshimasuigun.com/%E6%BD%AE%E6%B5%81%E4%BD%93%E9%A8%93",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "宮窪（村上海賊ミュージアム前）",
+          "lat": 34.17015,
+          "lon": 133.0875
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "愛媛県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "9:00〜15:00の毎時00分発（1日7便）。2026年7月から定休日は毎週月・火曜（祝日の場合は翌日）",
+      "vessels": "潮流体験船（能島潮流丸）",
+      "osm": [
+        "way/41668797"
+      ],
+      "notes": "能島（村上海賊の本拠地）・船折瀬戸・見近島周辺の急潮流を巡る周遊。予約は8名以上のみ受付（個人は予約不要）。連休は混雑。",
+      "sources": [
+        "https://www.noshimasuigun.com/",
+        "https://www.oideya.gr.jp/spot-c/tyoryu_miyakubo/"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

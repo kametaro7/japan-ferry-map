@@ -1,0 +1,2742 @@
+{
+  "region": "02_hokkaido_tohoku",
+  "updated": "2026-09-13",
+  "routes": [
+    {
+      "id": "02-wakkanai-oshidomari",
+      "name": "稚内〜利尻島（鴛泊）",
+      "operator": "ハートランドフェリー",
+      "operator_url": "https://heartlandferry.jp/",
+      "route_url": "https://heartlandferry.jp/timetable/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "稚内",
+          "lat": 45.41568,
+          "lon": 141.68341
+        },
+        {
+          "name": "利尻島（鴛泊）",
+          "lat": 45.24137,
+          "lon": 141.2283
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約1時間40分",
+      "frequency": "1日2〜3往復（季節により変動）",
+      "vessels": "フェリー（アマポーラ宗谷・ボレアース宗谷・サイプリア宗谷）",
+      "osm": [
+        "way/122776536"
+      ],
+      "notes": "稚内〜香深の一部便は鴛泊経由。",
+      "sources": [
+        "https://heartlandferry.jp/timetable/",
+        "https://heartlandferry.jp/wp/wp-content/uploads/2026/09/new_202604-10senpaku_unkouyotei2.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-wakkanai-kafuka",
+      "name": "稚内〜礼文島（香深）",
+      "operator": "ハートランドフェリー",
+      "operator_url": "https://heartlandferry.jp/",
+      "route_url": "https://heartlandferry.jp/timetable/time1/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "稚内",
+          "lat": 45.41568,
+          "lon": 141.68341
+        },
+        {
+          "name": "礼文島（香深）",
+          "lat": 45.29844,
+          "lon": 141.04605
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約1時間55分（鴛泊経由便は約2時間50分）",
+      "frequency": "1日2〜3往復（季節により変動）",
+      "vessels": "フェリー（アマポーラ宗谷・ボレアース宗谷・サイプリア宗谷）",
+      "osm": [
+        "way/151821705"
+      ],
+      "notes": "一部便は利尻島鴛泊港経由。",
+      "sources": [
+        "https://heartlandferry.jp/timetable/",
+        "https://heartlandferry.jp/wp/wp-content/uploads/2026/09/new_202604-10senpaku_unkouyotei2.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-oshidomari-kafuka",
+      "name": "利尻島（鴛泊）〜礼文島（香深）",
+      "operator": "ハートランドフェリー",
+      "operator_url": "https://heartlandferry.jp/",
+      "route_url": "https://heartlandferry.jp/timetable/time2/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "利尻島（鴛泊）",
+          "lat": 45.24137,
+          "lon": 141.2283
+        },
+        {
+          "name": "礼文島（香深）",
+          "lat": 45.29844,
+          "lon": 141.04605
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約45分",
+      "frequency": "1日1〜2往復（6〜9月は2往復）",
+      "vessels": "フェリー",
+      "osm": [
+        "way/122776521"
+      ],
+      "notes": "",
+      "sources": [
+        "https://heartlandferry.jp/timetable/time2/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-kutsugata-kafuka",
+      "name": "利尻島（沓形）〜礼文島（香深）",
+      "operator": "ハートランドフェリー",
+      "operator_url": "https://heartlandferry.jp/",
+      "route_url": "https://heartlandferry.jp/timetable/time2/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "利尻島（沓形）",
+          "lat": 45.18855,
+          "lon": 141.12969
+        },
+        {
+          "name": "礼文島（香深）",
+          "lat": 45.29844,
+          "lon": 141.04605
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "6月1日〜9月30日のみ運航",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "1日1往復（香深12:50発・沓形14:25発）",
+      "vessels": "フェリー",
+      "osm": [
+        "way/909021642"
+      ],
+      "notes": "",
+      "sources": [
+        "https://heartlandferry.jp/timetable/time2/",
+        "https://heartlandferry.jp/wp/wp-content/uploads/2026/09/new_202604-10senpaku_unkouyotei2.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-esashi-okushiri",
+      "name": "江差〜奥尻島",
+      "operator": "オクシリアイランドフェリー",
+      "operator_url": "https://heartlandferry.jp/",
+      "route_url": "https://heartlandferry.jp/timetable/time3/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "江差",
+          "lat": 41.86834,
+          "lon": 140.12266
+        },
+        {
+          "name": "奥尻",
+          "lat": 42.17467,
+          "lon": 139.51729
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約2時間10分（冬期約2時間20分）",
+      "frequency": "1日1〜2往復（夏期・連休は2往復）",
+      "vessels": "フェリー（カランセ奥尻）",
+      "osm": [
+        "way/330655432"
+      ],
+      "notes": "ハートランドフェリーグループ（公式サイト共通）。2026年9月に江差港新北埠頭岸壁での運航に関する告知あり。せたな〜奥尻航路は2019年から休止のため収録せず。",
+      "sources": [
+        "https://heartlandferry.jp/timetable/time3/",
+        "https://heartlandferry.jp/wp/wp-content/uploads/2026/04/okushiri01-09.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-haboro-yagishiri-teuri",
+      "name": "羽幌〜焼尻〜天売",
+      "operator": "羽幌沿海フェリー",
+      "operator_url": "https://haboro-enkai.com/",
+      "route_url": "https://haboro-enkai.com/timetable/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "羽幌",
+          "lat": 44.37136,
+          "lon": 141.69894
+        },
+        {
+          "name": "焼尻",
+          "lat": 44.44249,
+          "lon": 141.42832
+        },
+        {
+          "name": "天売",
+          "lat": 44.43882,
+          "lon": 141.32734
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "自動車・バイク・自転車はフェリー便のみ（要予約）。高速船は旅客のみ。",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "高速船は4月上旬〜8月末の運航。10月〜4月上旬はフェリー1日1往復。",
+      "status": "active",
+      "duration": "フェリー：羽幌〜焼尻約1時間・焼尻〜天売約25分／高速船：約35分・約15分",
+      "frequency": "1日1〜6便（季節により変動）",
+      "vessels": "フェリー・高速船",
+      "osm": [
+        "way/707965767",
+        "way/707965766"
+      ],
+      "notes": "",
+      "sources": [
+        "https://haboro-enkai.com/",
+        "https://haboro-enkai.com/timetable/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-aomori-hakodate-tsugaru",
+      "name": "青森〜函館（津軽海峡フェリー）",
+      "operator": "津軽海峡フェリー",
+      "operator_url": "https://www.tsugarukaikyo.co.jp/",
+      "route_url": "https://www.tsugarukaikyo.co.jp/service/timetable/hakodate-aomori/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "青森（津軽海峡フェリーターミナル）",
+          "lat": 40.84617,
+          "lon": 140.71612
+        },
+        {
+          "name": "函館（津軽海峡フェリーターミナル）",
+          "lat": 41.8076,
+          "lon": 140.71055
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "青森2:30発→函館6:10着、函館3:20発→青森7:00着のほか、青森22:25発・函館22:05発（翌1〜2時着）の深夜便あり。",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約3時間40分",
+      "frequency": "1日6往復",
+      "vessels": "フェリー（ブルーハピネス・ブルードルフィン・ブルーマーメイド等）",
+      "osm": [
+        "way/670676201"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.tsugarukaikyo.co.jp/service/timetable/hakodate-aomori/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-oma-hakodate",
+      "name": "大間〜函館",
+      "operator": "津軽海峡フェリー",
+      "operator_url": "https://www.tsugarukaikyo.co.jp/",
+      "route_url": "https://www.tsugarukaikyo.co.jp/service/timetable/hakodate-oma/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "大間",
+          "lat": 41.52617,
+          "lon": 140.89885
+        },
+        {
+          "name": "函館（津軽海峡フェリーターミナル）",
+          "lat": 41.8076,
+          "lon": 140.71055
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約1時間30分",
+      "frequency": "1日2往復（繁忙期は3往復）",
+      "vessels": "フェリー（大函丸）",
+      "osm": [
+        "way/371187975"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.tsugarukaikyo.co.jp/service/timetable/hakodate-oma/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-aomori-muroran",
+      "name": "青森〜室蘭",
+      "operator": "津軽海峡フェリー",
+      "operator_url": "https://www.tsugarukaikyo.co.jp/",
+      "route_url": "https://www.tsugarukaikyo.co.jp/service/timetable/muroran-aomori/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "青森（津軽海峡フェリーターミナル）",
+          "lat": 40.84617,
+          "lon": 140.71612
+        },
+        {
+          "name": "室蘭",
+          "lat": 42.3272,
+          "lon": 140.9765
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "室蘭20:50発→青森翌3:50着の夜行便（青森発は昼行10:40発→17:25着）。",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約7時間（青森発は約6時間45分）",
+      "frequency": "1日1往復",
+      "vessels": "フェリー（ブルーグレース／ブルーマーメイド）",
+      "osm": [],
+      "notes": "航路距離300km未満の本州〜北海道航路のため担当02で収録（担当01の長距離フェリーと重複の可能性あり）。",
+      "sources": [
+        "https://www.tsugarukaikyo.co.jp/service/timetable/muroran-aomori/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-aomori-hakodate-seikan",
+      "name": "青森〜函館（青函フェリー）",
+      "operator": "青函フェリー",
+      "operator_url": "https://www.seikan-ferry.co.jp/",
+      "route_url": "https://www.seikan-ferry.co.jp/schedule/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "青森（青函フェリーターミナル）",
+          "lat": 40.84389,
+          "lon": 140.71583
+        },
+        {
+          "name": "函館（青函フェリーターミナル）",
+          "lat": 41.79532,
+          "lon": 140.72
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "青森・函館とも2:00発・4:30発・23:30発などの深夜便あり。",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県",
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約3時間50分",
+      "frequency": "1日8往復",
+      "vessels": "フェリー（はやぶさ・はやぶさⅡ・はやぶさⅢ等）",
+      "osm": [
+        "way/670675784"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.seikan-ferry.co.jp/",
+        "https://www.seikan-ferry.co.jp/schedule/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-kanita-wakinosawa",
+      "name": "蟹田〜脇野沢（むつ湾フェリー）",
+      "operator": "むつ湾フェリー",
+      "operator_url": "https://www.mutsuwan-ferry.jp/",
+      "route_url": "",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "蟹田",
+          "lat": 41.0492,
+          "lon": 140.64663
+        },
+        {
+          "name": "脇野沢",
+          "lat": 41.14477,
+          "lon": 140.82672
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県"
+      ],
+      "seasonal": true,
+      "season_note": "4月21日〜11月5日のみ運航（冬季運休）",
+      "status": "active",
+      "duration": "約1時間",
+      "frequency": "1日2往復（蟹田9:20・14:00発、脇野沢10:50・15:30発）",
+      "vessels": "フェリー",
+      "osm": [
+        "way/569686691"
+      ],
+      "notes": "青森〜脇野沢〜佐井の高速船（シィライン）は2023年3月末で廃止のため収録せず。",
+      "sources": [
+        "https://www.mutsuwan-ferry.jp/",
+        "https://wwwtb.mlit.go.jp/tohoku/kj/kj-sub17.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-towada-yasumiya-nenokuchi",
+      "name": "十和田湖遊覧船 休屋〜子ノ口（Aコース）",
+      "operator": "十和田観光電鉄",
+      "operator_url": "http://www.toutetsu.co.jp/ship.html",
+      "route_url": "http://www.toutetsu.co.jp/ship/pdf/laketowada_time_2026.pdf",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "休屋",
+          "lat": 40.4268,
+          "lon": 140.89154
+        },
+        {
+          "name": "子ノ口",
+          "lat": 40.47863,
+          "lon": 140.93984
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県"
+      ],
+      "seasonal": true,
+      "season_note": "2026年は4月24日〜11月5日（冬季運休）",
+      "status": "active",
+      "duration": "約50分",
+      "frequency": "1日3往復（子ノ口16:00発は10月9日まで）",
+      "vessels": "遊覧船",
+      "osm": [
+        "way/233523109"
+      ],
+      "notes": "片道利用可。自転車積込は別料金。",
+      "sources": [
+        "http://www.toutetsu.co.jp/ship.html",
+        "http://www.toutetsu.co.jp/ship/pdf/laketowada_time_2026.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-towada-yasumiya-loop",
+      "name": "十和田湖遊覧船 休屋発着 おぐら・中山半島めぐり（Bコース）",
+      "operator": "十和田観光電鉄",
+      "operator_url": "http://www.toutetsu.co.jp/ship.html",
+      "route_url": "http://www.toutetsu.co.jp/ship/pdf/laketowada_time_2026.pdf",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "休屋",
+          "lat": 40.4268,
+          "lon": 140.89154
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県"
+      ],
+      "seasonal": true,
+      "season_note": "2026年は4月24日〜11月16日（8:45発は11/5まで、16:00発は10/15まで）。冬季運休",
+      "status": "active",
+      "duration": "約50分",
+      "frequency": "1日5〜6便",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "",
+      "sources": [
+        "http://www.toutetsu.co.jp/ship.html",
+        "http://www.toutetsu.co.jp/ship/pdf/laketowada_time_2026.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-shiogama-urato",
+      "name": "塩釜〜浦戸諸島（桂島・野々島・石浜・寒風沢・朴島）",
+      "operator": "塩竈市（塩竈市営汽船）",
+      "operator_url": "https://urato-island.jp/",
+      "route_url": "https://www.city.shiogama.miyagi.jp/site/urato/12503.html",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "マリンゲート塩釜",
+          "lat": 38.31964,
+          "lon": 141.02962
+        },
+        {
+          "name": "桂島",
+          "lat": 38.33674,
+          "lon": 141.091
+        },
+        {
+          "name": "野々島",
+          "lat": 38.33792,
+          "lon": 141.10562
+        },
+        {
+          "name": "石浜",
+          "lat": 38.33316,
+          "lon": 141.10271
+        },
+        {
+          "name": "寒風沢",
+          "lat": 38.33847,
+          "lon": 141.11794
+        },
+        {
+          "name": "朴島",
+          "lat": 38.34862,
+          "lon": 141.12421
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "塩釜〜桂島約25分、朴島まで約45分",
+      "frequency": "1日7往復程度（一部便は曜日限定）",
+      "vessels": "旅客船",
+      "osm": [
+        "way/909223240",
+        "way/909223242",
+        "way/909223244",
+        "way/909223246",
+        "way/909223248"
+      ],
+      "notes": "島間の渡船は無料。",
+      "sources": [
+        "https://urato-island.jp/",
+        "https://www.city.shiogama.miyagi.jp/site/urato/12503.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-ishinomaki-ajishima",
+      "name": "石巻〜田代島〜網地島〜鮎川（網地島ライン）",
+      "operator": "網地島ライン",
+      "operator_url": "https://www.ajishimaline.com/",
+      "route_url": "https://www.ajishimaline.com/pg117.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石巻（中央）",
+          "lat": 38.42897,
+          "lon": 141.30871
+        },
+        {
+          "name": "石巻（門脇）",
+          "lat": 38.41902,
+          "lon": 141.31081
+        },
+        {
+          "name": "田代島（大泊）",
+          "lat": 38.30565,
+          "lon": 141.41984
+        },
+        {
+          "name": "田代島（仁斗田）",
+          "lat": 38.29476,
+          "lon": 141.42661
+        },
+        {
+          "name": "網地島（網地）",
+          "lat": 38.27505,
+          "lon": 141.45952
+        },
+        {
+          "name": "網地島（長渡）",
+          "lat": 38.25686,
+          "lon": 141.49534
+        },
+        {
+          "name": "鮎川",
+          "lat": 38.29461,
+          "lon": 141.50774
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "カーフェリー「マーメイドⅡ」便のみ車両積載可（最大3台、要問合せ）。高速船「シーキャット」は旅客のみ。",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "",
+      "frequency": "通年ダイヤ（便数は公式時刻表参照）",
+      "vessels": "カーフェリー・高速船",
+      "osm": [
+        "way/812681352",
+        "way/812681356",
+        "way/812681347",
+        "way/812681349",
+        "way/812681357",
+        "way/812681358"
+      ],
+      "notes": "寄港地は気象により変更あり。",
+      "sources": [
+        "https://www.ajishimaline.com/pg117.html",
+        "https://www.ajishimaline.com/pg120.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-onagawa-enoshima",
+      "name": "女川〜江島",
+      "operator": "シーパル女川汽船",
+      "operator_url": "http://seapal-kisen.co.jp/",
+      "route_url": "http://seapal-kisen.co.jp/price/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "女川",
+          "lat": 38.44265,
+          "lon": 141.44755
+        },
+        {
+          "name": "江島",
+          "lat": 38.40053,
+          "lon": 141.59337
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "車両・特殊車両の積込は要相談。",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "",
+      "frequency": "1日3往復（第3便はデマンド運航）",
+      "vessels": "旅客船（2026年9月16日から新造船「しまあかり」）",
+      "osm": [
+        "way/842280584"
+      ],
+      "notes": "出島・寺間方面は臨時便（チャーター）のみ。",
+      "sources": [
+        "http://seapal-kisen.co.jp/",
+        "http://seapal-kisen.co.jp/price/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-onagawa-kinkasan",
+      "name": "女川〜金華山",
+      "operator": "潮プランニング",
+      "operator_url": "http://www.ushio-planning.co.jp/",
+      "route_url": "http://www.ushio-planning.co.jp/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "女川（観光桟橋）",
+          "lat": 38.44316,
+          "lon": 141.44858
+        },
+        {
+          "name": "金華山",
+          "lat": 38.29458,
+          "lon": 141.55121
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "定期便は毎週日曜1往復（女川11:00発・金華山13:30発）＋臨時便",
+      "vessels": "旅客船",
+      "osm": [
+        "way/1257443008",
+        "way/1281062985",
+        "way/1281062984"
+      ],
+      "notes": "",
+      "sources": [
+        "http://www.ushio-planning.co.jp/",
+        "https://wwwtb.mlit.go.jp/tohoku/kj/kj-sub17.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-ayukawa-kinkasan-kinkasankanko",
+      "name": "鮎川〜金華山（金華山観光）",
+      "operator": "金華山観光",
+      "operator_url": "http://www.kinkasan.com/",
+      "route_url": "http://www.kinkasan.com/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "鮎川",
+          "lat": 38.29445,
+          "lon": 141.50842
+        },
+        {
+          "name": "金華山",
+          "lat": 38.29458,
+          "lon": 141.55121
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約20分",
+      "frequency": "定期船は日曜（臨時便は土日祝・祭典日）鮎川10:30発・金華山12:30発",
+      "vessels": "旅客船（ホエール）",
+      "osm": [
+        "way/59972187"
+      ],
+      "notes": "予約制の海上タクシーも運航。",
+      "sources": [
+        "http://www.kinkasan.com/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "02-ayukawa-kinkasan-kinkasanferry",
+      "name": "鮎川〜金華山（金華山フェリー）",
+      "operator": "金華山フェリー（シードリーム金華山）",
+      "operator_url": "http://seadream-kinkasan.com/",
+      "route_url": "http://seadream-kinkasan.com/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "鮎川",
+          "lat": 38.29445,
+          "lon": 141.50842
+        },
+        {
+          "name": "金華山",
+          "lat": 38.29458,
+          "lon": 141.55121
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "定期船は運航シーズン中の土日祝・大型連休に運航",
+      "status": "active",
+      "duration": "約20分",
+      "frequency": "定期船 鮎川10:30発・金華山12:30発（土日祝）",
+      "vessels": "旅客船",
+      "osm": [
+        "way/59972187"
+      ],
+      "notes": "社名は金華山フェリー、サイト名はシードリーム金華山。海上タクシーも運航。",
+      "sources": [
+        "http://seadream-kinkasan.com/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-matsushima-nioumaru",
+      "name": "松島湾一周（仁王丸コース）",
+      "operator": "松島島巡り観光船企業組合",
+      "operator_url": "http://www.matsushima.or.jp/",
+      "route_url": "http://www.matsushima.or.jp/timesheet/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "松島（観光桟橋）",
+          "lat": 38.36882,
+          "lon": 141.06322
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約50分",
+      "frequency": "9:00〜16:00の毎時（冬季は16:00便休航）",
+      "vessels": "大型遊覧船（仁王丸）",
+      "osm": [],
+      "notes": "同組合の塩釜コース等は団体貸切のみ。",
+      "sources": [
+        "http://www.matsushima.or.jp/timesheet/",
+        "http://www.matsushima.or.jp/course/shiogama.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-shiogama-matsushima-marubun",
+      "name": "塩釜〜松島（芭蕉コース）",
+      "operator": "丸文松島汽船",
+      "operator_url": "http://www.marubun-kisen.com/",
+      "route_url": "http://www.marubun-kisen.com/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "マリンゲート塩釜",
+          "lat": 38.31964,
+          "lon": 141.02962
+        },
+        {
+          "name": "松島（観光桟橋）",
+          "lat": 38.36882,
+          "lon": 141.06322
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約50分",
+      "frequency": "塩釜発・松島発とも9:00〜15:00の毎時程度",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "",
+      "sources": [
+        "http://www.marubun-kisen.com/",
+        "https://wwwtb.mlit.go.jp/tohoku/kj/kj-sub17.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "02-matsushima-masamune-marubun",
+      "name": "松島湾周遊（政宗コース）",
+      "operator": "丸文松島汽船",
+      "operator_url": "http://www.marubun-kisen.com/",
+      "route_url": "http://www.marubun-kisen.com/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "松島（観光桟橋）",
+          "lat": 38.36882,
+          "lon": 141.06322
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約50分",
+      "frequency": "10:00〜15:00の毎時（9:00・16:00は臨時便）",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "",
+      "sources": [
+        "http://www.marubun-kisen.com/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "02-kesennuma-baycruise-kesennuma",
+      "name": "気仙沼ベイクルーズ（気仙沼発着）",
+      "operator": "大島汽船",
+      "operator_url": "https://www.oshimakisen.com/",
+      "route_url": "https://www.oshimakisen.com/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "気仙沼（PIER7）",
+          "lat": 38.90571,
+          "lon": 141.57592
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": true,
+      "season_note": "4月末〜11月の土日祝・GW・お盆（平日は貸切のみ）",
+      "status": "active",
+      "duration": "約50分",
+      "frequency": "1日6便（10:00〜15:30）",
+      "vessels": "遊覧船",
+      "osm": [
+        "way/1052170840"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.oshimakisen.com/",
+        "http://www.t-ryokyakusen.jp/gr/miyagi/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-kesennuma-baycruise-oshima",
+      "name": "気仙沼ベイクルーズ（大島発着）",
+      "operator": "大島汽船",
+      "operator_url": "https://www.oshimakisen.com/",
+      "route_url": "https://www.oshimakisen.com/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "気仙沼大島（浦の浜）",
+          "lat": 38.86509,
+          "lon": 141.61266
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": true,
+      "season_note": "4月末〜11月の土日祝・GW・お盆（平日は貸切のみ）",
+      "status": "active",
+      "duration": "約50分",
+      "frequency": "1日6便（10:00〜15:30）",
+      "vessels": "遊覧船",
+      "osm": [
+        "way/1052170843"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.oshimakisen.com/",
+        "http://www.t-ryokyakusen.jp/gr/miyagi/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-shiretoko-aurora-utoro",
+      "name": "知床観光船おーろら（ウトロ発着）",
+      "operator": "道東観光開発",
+      "operator_url": "https://www.ms-aurora.com/shiretoko/",
+      "route_url": "https://www.ms-aurora.com/shiretoko/prices/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "ウトロ",
+          "lat": 44.07549,
+          "lon": 144.99317
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "4月下旬〜10月下旬（カムイワッカの滝航路は10/25まで、知床岬航路はGWと6/1〜10/15）。冬季運休",
+      "status": "active",
+      "duration": "カムイワッカの滝航路約1時間30分／ルシャ湾航路約2時間15分／知床岬航路約4時間",
+      "frequency": "カムイワッカの滝航路は1日最大4便、ルシャ湾航路1日2便、知床岬航路1日1便",
+      "vessels": "観光船（おーろら・おーろら3）",
+      "osm": [
+        "way/1075023763",
+        "way/1075023764"
+      ],
+      "notes": "最少催行人数あり。",
+      "sources": [
+        "https://www.ms-aurora.com/shiretoko/prices/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-abashiri-aurora",
+      "name": "網走流氷観光砕氷船おーろら",
+      "operator": "道東観光開発",
+      "operator_url": "https://www.ms-aurora.com/abashiri/",
+      "route_url": "https://www.ms-aurora.com/abashiri/prices/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "網走（道の駅 流氷街道網走）",
+          "lat": 44.0222,
+          "lon": 144.27392
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "流氷期の1月20日〜3月31日のみ運航",
+      "status": "active",
+      "duration": "約1時間（小型船おーろら3は約2時間）",
+      "frequency": "1日4〜5便程度＋不定期便",
+      "vessels": "流氷観光砕氷船（おーろら・おーろら3）",
+      "osm": [],
+      "notes": "",
+      "sources": [
+        "https://www.ms-aurora.com/abashiri/prices/",
+        "https://www.ho-ships.jp/route/ryuhyo-cruise/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-toya-nakajima",
+      "name": "洞爺湖 中島めぐり遊覧船",
+      "operator": "洞爺湖汽船",
+      "operator_url": "https://www.toyakokisen.com/",
+      "route_url": "https://www.toyakokisen.com/price/",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "洞爺湖温泉（駅前桟橋）",
+          "lat": 42.56661,
+          "lon": 140.81818
+        },
+        {
+          "name": "中島（大島）",
+          "lat": 42.59483,
+          "lon": 140.84569
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "夏季（4月下旬〜10月末）は30分毎・中島で下船可、冬季（11月〜4月初旬）は60分毎・下船不可",
+      "status": "active",
+      "duration": "約50分（冬季約45分）",
+      "frequency": "夏季30分毎（8:30〜16:30）、冬季60分毎（9:00〜16:00）",
+      "vessels": "遊覧船",
+      "osm": [
+        "way/1222890115"
+      ],
+      "notes": "4月下旬〜10月末は洞爺湖ロングラン花火大会の花火鑑賞船も運航。",
+      "sources": [
+        "https://www.toyakokisen.com/price/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-shumarinai",
+      "name": "朱鞠内湖 遊覧船",
+      "operator": "朱鞠内観光汽船",
+      "operator_url": "https://horokanai-kankou.com/activities/shumarinai-kankou-kisen/",
+      "route_url": "",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "朱鞠内湖畔",
+          "lat": 44.30736,
+          "lon": 142.18304
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "冬季（結氷期）運休",
+      "status": "active",
+      "duration": "約35分",
+      "frequency": "運航時間8:00〜17:00（定時ダイヤの記載なし）",
+      "vessels": "遊覧船（うきしま）",
+      "osm": [],
+      "notes": "公式サイトが無いため幌加内町観光協会のページを使用。風速10m/s以上等で運休。",
+      "sources": [
+        "https://horokanai-kankou.com/activities/shumarinai-kankou-kisen/",
+        "https://www.ho-ships.jp/route/yuran-konuma/"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "02-yanaizu-kankosen",
+      "name": "柳津観洸船（只見川下り遊覧）",
+      "operator": "柳津観洸船",
+      "operator_url": "http://yanaizu-kankosen.com/",
+      "route_url": "http://yanaizu-kankosen.com/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "柳津（道の駅会津柳津付近）",
+          "lat": 37.52996,
+          "lon": 139.72359
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "福島県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "1日5便（10:00・11:20・13:00・14:20・15:40）",
+      "vessels": "遊覧船（SL型）",
+      "osm": [],
+      "notes": "2026年の運航状況は公式サイトに日付の記載がなく未確認（サイト更新は2022年）。冬季の運航可否も不明。",
+      "sources": [
+        "http://yanaizu-kankosen.com/"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "02-shikotsu",
+      "name": "支笏湖観光船（水中遊覧船）",
+      "operator": "支笏湖観光運輸",
+      "operator_url": "https://shikotsu-ship.co.jp/",
+      "route_url": "https://shikotsu-ship.co.jp/",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "支笏湖温泉",
+          "lat": 42.7786,
+          "lon": 141.3978
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "2026年は4月24日〜11月3日（冬季運休）",
+      "status": "active",
+      "duration": "約30分",
+      "frequency": "9:00始発〜最終17:00発（秋は最終15:30〜16:30発）",
+      "vessels": "水中遊覧船",
+      "osm": [],
+      "notes": "伊藤温泉・丸駒温泉・オコタン方面への乗合運航は休止中。",
+      "sources": [
+        "https://shikotsu-ship.co.jp/",
+        "https://shikotsu-ship.co.jp/304/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-akanko",
+      "name": "阿寒湖遊覧船（チュウルイ島 マリモ展示観察センター経由）",
+      "operator": "阿寒観光汽船",
+      "operator_url": "https://www.akankisen.com/",
+      "route_url": "https://www.akankisen.com/exBoat1.html",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "まりもの里桟橋",
+          "lat": 43.43429,
+          "lon": 144.09917
+        },
+        {
+          "name": "チュウルイ島（マリモ展示観察センター）",
+          "lat": 43.46992,
+          "lon": 144.1084
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "4月15日〜11月30日（4月後半は不定期運航、冬季運休）",
+      "status": "active",
+      "duration": "約85分（チュウルイ島で約15分のマリモ観覧を含む）",
+      "frequency": "1日最大8便（8:00〜16:00）",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "幸運の森桟橋にも発着（5分遅発・5分早着）。個人客は予約不要。",
+      "sources": [
+        "https://www.akankisen.com/exBoat1.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-otaru-canal",
+      "name": "小樽運河クルーズ",
+      "operator": "小樽カナルボート",
+      "operator_url": "https://otaru.cc/",
+      "route_url": "https://otaru.cc/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "小樽運河（中央橋）",
+          "lat": 43.19994,
+          "lon": 141.00176
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": false,
+      "season_note": "通年運航（冬季は屋根付きで運航）",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "デイクルーズ10:00〜17:30・ナイトクルーズ18:00〜20:00の30分毎",
+      "vessels": "小型遊覧船",
+      "osm": [],
+      "notes": "",
+      "sources": [
+        "https://otaru.cc/",
+        "https://www.pref.hokkaido.lg.jp/kz/kkd/kankousen.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-otaru-shukutsu",
+      "name": "小樽港〜祝津（小樽海上観光船 祝津航路）",
+      "operator": "小樽観光振興公社",
+      "operator_url": "https://otaru-kankousen.jp/",
+      "route_url": "https://otaru-kankousen.jp/aobato-course/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "小樽港（観光船ターミナル）",
+          "lat": 43.20069,
+          "lon": 141.00268
+        },
+        {
+          "name": "祝津港",
+          "lat": 43.23485,
+          "lon": 141.00926
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "2026年は4月18日〜10月18日",
+      "status": "active",
+      "duration": "片道約20分",
+      "frequency": "小樽港発1日4〜5便（平日10:00・11:00・13:00・16:00など）",
+      "vessels": "観光船（あおばと）",
+      "osm": [],
+      "notes": "片道利用可。祝津経由のオタモイ航路（約40〜90分）・赤岩航路も運航。",
+      "sources": [
+        "https://otaru-kankousen.jp/",
+        "https://otaru-kankousen.jp/aobato-course/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-shakotan-glassboat",
+      "name": "積丹水中展望船ニューしゃこたん号（美国港発着）",
+      "operator": "積丹観光振興公社",
+      "operator_url": "https://www.shakotan-glassboat.com/",
+      "route_url": "https://www.shakotan-glassboat.com/info.html",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "美国港",
+          "lat": 43.30089,
+          "lon": 140.60286
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "4月25日〜10月末（冬季運休）",
+      "status": "active",
+      "duration": "約40分（美国港〜黄金岬〜ゴメ島〜宝島）",
+      "frequency": "9:00〜16:30の間で不定期に運航（最低運航客2名）",
+      "vessels": "水中展望船",
+      "osm": [],
+      "notes": "",
+      "sources": [
+        "https://www.shakotan-glassboat.com/info.html",
+        "https://www.shakotan-glassboat.com/news/933"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-hakodate-bluemoon",
+      "name": "函館港 観光遊覧船ブルームーン",
+      "operator": "マルカツ興産（HAKODATE FACTORY）",
+      "operator_url": "https://www.hakodate-factory.com/bluemoon/",
+      "route_url": "https://www.hakodate-factory.com/bluemoon/schedule/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "函館（ブルームーン乗り場・末広町）",
+          "lat": 41.76666,
+          "lon": 140.71629
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "2026年は4月25日〜11月23日",
+      "status": "active",
+      "duration": "約40分（函館〜寒川周遊コースは約60分）",
+      "frequency": "1日7〜8便（例：5月は10:30〜17:30）",
+      "vessels": "遊覧船（ブルームーン）",
+      "osm": [],
+      "notes": "個人・小団体は予約なしで乗船可。夏季はナイトクルーズあり。",
+      "sources": [
+        "https://www.hakodate-factory.com/bluemoon/schedule/",
+        "https://www.hakodate-factory.com/bluemoon/plan/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-muroran-starmarine",
+      "name": "室蘭港内クルーズ（スターマリン）",
+      "operator": "スターマリン",
+      "operator_url": "https://star-marine.co.jp/",
+      "route_url": "https://star-marine.co.jp/cruise/port_cruise.html",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "室蘭（祝津 スターマリン乗り場）",
+          "lat": 42.34432,
+          "lon": 140.95149
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "4月〜11月",
+      "status": "active",
+      "duration": "約60分",
+      "frequency": "1日2便（10:00・14:00、催行5名から）",
+      "vessels": "小型観光船",
+      "osm": [],
+      "notes": "地球岬遊覧（1日2便・約90分）も運航。イルカウォッチングや予約制の森蘭航路は対象外。",
+      "sources": [
+        "https://star-marine.co.jp/cruise/port_cruise.html",
+        "https://star-marine.co.jp/cruise/cape_chikyu_cruise.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-odaito-todowara",
+      "name": "尾岱沼〜トドワラ（別海町観光船）",
+      "operator": "別海町観光開発公社",
+      "operator_url": "https://ship.odaito.com/",
+      "route_url": "https://ship.odaito.com/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "尾岱沼港",
+          "lat": 43.56914,
+          "lon": 145.22501
+        },
+        {
+          "name": "トドワラ桟橋",
+          "lat": 43.58131,
+          "lon": 145.32757
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "2026年は5月19日〜10月末（予定）",
+      "status": "active",
+      "duration": "片道約25分（トドワラ散策を含め往復約90分）",
+      "frequency": "1日1往復（尾岱沼8:30発・トドワラ9:35発）",
+      "vessels": "観光船",
+      "osm": [],
+      "notes": "アザラシウォッチング等の周遊コースは自然観察のため対象外。トドワラ側の座標は概略。",
+      "sources": [
+        "https://ship.odaito.com/",
+        "https://www.ho-ships.jp/route/yuran-coast/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-hachinohe-hayabusa2",
+      "name": "八戸港観光遊覧船 はやぶさⅡ",
+      "operator": "八戸通船",
+      "operator_url": "https://www.facebook.com/hachinohekoyuuransen/",
+      "route_url": "",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "八戸港（鮫）",
+          "lat": 40.53572,
+          "lon": 141.55735
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県"
+      ],
+      "seasonal": true,
+      "season_note": "4月第2土曜日〜10月最終日曜日",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "",
+      "vessels": "遊覧船（はやぶさⅡ）",
+      "osm": [
+        "way/558706882"
+      ],
+      "notes": "公式Webサイトは無くFacebookページのみ。運航内容は東北旅客船協会の案内による。2026年の運航は未確認。",
+      "sources": [
+        "http://www.t-ryokyakusen.jp/gr/aomori/",
+        "https://wwwtb.mlit.go.jp/tohoku/kj/kj-sub17.html"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "02-jodogahama-uminekomaru",
+      "name": "浄土ヶ浜遊覧船（宮古うみねこ丸）",
+      "operator": "岩手県北自動車（宮古遊覧船事業部）",
+      "operator_url": "https://jodo-yuransen.jp/",
+      "route_url": "https://jodo-yuransen.jp/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "宮古（出崎ふ頭）",
+          "lat": 39.6394,
+          "lon": 141.96994
+        },
+        {
+          "name": "浄土ヶ浜",
+          "lat": 39.65245,
+          "lon": 141.97874
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "岩手県"
+      ],
+      "seasonal": false,
+      "season_note": "4〜6月・9〜12月は火曜運休（祝日は運航）、1〜3月は冬期特別ダイヤ（整備運休あり）",
+      "status": "active",
+      "duration": "約40分（湾内周遊）",
+      "frequency": "1日5〜7便",
+      "vessels": "遊覧船（宮古うみねこ丸）",
+      "osm": [],
+      "notes": "出崎ふ頭〜浄土ヶ浜間は水上交通（片道）としても利用可。浄土ヶ浜側の座標は概略。",
+      "sources": [
+        "https://jodo-yuransen.jp/",
+        "http://www.t-ryokyakusen.jp/gr/iwate/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-geibikei",
+      "name": "猊鼻渓舟下り",
+      "operator": "げいび観光センター",
+      "operator_url": "https://geibikei.co.jp/",
+      "route_url": "https://geibikei.co.jp/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "猊鼻渓（げいび観光センター乗船場）",
+          "lat": 38.98708,
+          "lon": 141.25803
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "岩手県"
+      ],
+      "seasonal": false,
+      "season_note": "年中無休（冬季はこたつ舟）",
+      "status": "active",
+      "duration": "約90分（往復、途中散策含む）",
+      "frequency": "",
+      "vessels": "手漕ぎ舟",
+      "osm": [],
+      "notes": "混雑時は臨時便あり。",
+      "sources": [
+        "https://geibikei.co.jp/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-abukuma-line",
+      "name": "阿武隈ライン舟下り（周遊コース）",
+      "operator": "丸森町観光物産振興公社",
+      "operator_url": "https://abukuma-line.jp/",
+      "route_url": "https://abukuma-line.jp/price/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "丸森（阿武隈ライン舟下り乗船所）",
+          "lat": 37.92226,
+          "lon": 140.7596
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "月曜（祝日の場合は翌平日）・年末年始は休業。15:20発は4〜10月のみ",
+      "status": "active",
+      "duration": "約70分（約11km）",
+      "frequency": "1日3〜4便（9:45・11:30・13:20・15:20）",
+      "vessels": "屋形舟",
+      "osm": [],
+      "notes": "あぶくま駅コースは運航休止中。食事付きプランは要予約。",
+      "sources": [
+        "https://abukuma-line.jp/",
+        "https://abukuma-line.jp/price/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-mogami-yoshitsune",
+      "name": "最上川舟下り 義経ロマン観光（高屋発着・仙人堂往復）",
+      "operator": "最上峡観光開発",
+      "operator_url": "https://mogamigawa.jp/",
+      "route_url": "https://mogamigawa.jp/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "高屋（旧高屋駅乗船受付所）",
+          "lat": 38.75266,
+          "lon": 140.07072
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "山形県"
+      ],
+      "seasonal": false,
+      "season_note": "通年（2〜3月は要予約）",
+      "status": "active",
+      "duration": "約60分（仙人堂立ち寄り）",
+      "frequency": "1日3〜4便（10:00・11:40・13:10、14:30は要予約）",
+      "vessels": "舟",
+      "osm": [],
+      "notes": "",
+      "sources": [
+        "https://mogamigawa.jp/",
+        "http://www.t-ryokyakusen.jp/gr/yamagata/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-tazawako",
+      "name": "田沢湖遊覧船（白浜発着）",
+      "operator": "羽後交通興業",
+      "operator_url": "https://tazawako-resthouse.jp/yuransen-2",
+      "route_url": "https://tazawako-resthouse.jp/yuransen-2",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "田沢湖 白浜（田沢湖レストハウス）",
+          "lat": 39.73072,
+          "lon": 140.69948
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "秋田県"
+      ],
+      "seasonal": true,
+      "season_note": "4月11日〜11月8日（冬季運休）",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "1日4便（9:10・11:10・13:10・15:10）",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "当面、潟尻桟橋への寄港は中止（周遊のみ）。",
+      "sources": [
+        "https://tazawako-resthouse.jp/yuransen-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-oga-monzen",
+      "name": "男鹿半島観光遊覧船 西海岸周遊クルーズ（門前）",
+      "operator": "男鹿半島観光遊覧船",
+      "operator_url": "https://oganavi.com/news/2026/05/05122820/",
+      "route_url": "",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "男鹿 門前",
+          "lat": 39.86454,
+          "lon": 139.75439
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "秋田県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "suspended",
+      "duration": "",
+      "frequency": "",
+      "vessels": "",
+      "osm": [],
+      "notes": "2026年度は運航休止（男鹿市観光協会「男鹿なび」2026年5月5日のお知らせ）。運航事業者の公式サイトは確認できず観光協会ページを使用。",
+      "sources": [
+        "https://oganavi.com/news/2026/05/05122820/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "02-oga-nyudozaki",
+      "name": "男鹿遊覧海底透視船（入道崎）",
+      "operator": "男鹿遊覧透視船",
+      "operator_url": "https://oganavi.com/boat/",
+      "route_url": "",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "入道崎",
+          "lat": 40.00509,
+          "lon": 139.70171
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "秋田県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "suspended",
+      "duration": "",
+      "frequency": "",
+      "vessels": "",
+      "osm": [],
+      "notes": "2026年度は運航休止（男鹿なび 2026年5月5日のお知らせ）。公式サイトが無く観光協会ページを使用。座標は概略。",
+      "sources": [
+        "https://oganavi.com/news/2026/05/05122820/",
+        "https://wwwtb.mlit.go.jp/tohoku/kj/kj-sub17.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "02-hibarako-bandaimaru",
+      "name": "桧原湖島めぐり（観光船ばんだい丸）",
+      "operator": "グランベルホテル（裏磐梯レイクリゾート）",
+      "operator_url": "https://www.lakeresort.jp/cruise/",
+      "route_url": "https://www.lakeresort.jp/cruise/",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "桧原湖（裏磐梯レイクリゾート前）",
+          "lat": 37.65311,
+          "lon": 140.06326
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "福島県"
+      ],
+      "seasonal": true,
+      "season_note": "2026年は4月29日〜11月8日",
+      "status": "active",
+      "duration": "約35分",
+      "frequency": "1日6便（10:00〜15:30）",
+      "vessels": "観光船（ばんだい丸）",
+      "osm": [
+        "way/289143974"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.lakeresort.jp/cruise/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-inawashiro-hakuchomaru",
+      "name": "猪苗代湖 翁島めぐり（遊覧船はくちょう丸）",
+      "operator": "猪苗代観光船",
+      "operator_url": "https://i-kankousen.co.jp/",
+      "route_url": "https://i-kankousen.co.jp/time/",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "猪苗代湖 長浜",
+          "lat": 37.52644,
+          "lon": 140.04559
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "福島県"
+      ],
+      "seasonal": false,
+      "season_note": "通年運航（天候不良時運休、定休日あり）",
+      "status": "active",
+      "duration": "約35分",
+      "frequency": "平日10:00〜15:30に1日6便、土日祝10:00〜15:00の毎時",
+      "vessels": "遊覧船（はくちょう丸）",
+      "osm": [],
+      "notes": "かめ丸はカフェ営業（運航なし）。",
+      "sources": [
+        "https://i-kankousen.co.jp/time/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-onahama-daycruise",
+      "name": "小名浜港内クルーズ（小名浜デイクルーズ）",
+      "operator": "小名浜デイクルーズ",
+      "operator_url": "https://onahama-dc.com/",
+      "route_url": "https://onahama-dc.com/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "小名浜（いわき・ら・ら・ミュウ）",
+          "lat": 36.94432,
+          "lon": 140.90551
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "福島県"
+      ],
+      "seasonal": false,
+      "season_note": "通年（毎週水曜定休、祝日は営業）",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "1日4便（10:15・11:30・12:45・14:00）",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "",
+      "sources": [
+        "https://onahama-dc.com/",
+        "http://www.t-ryokyakusen.jp/gr/fukushima/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-utoro-gojiraiwa",
+      "name": "知床半島クルーズ（ゴジラ岩観光・ウトロ発着）",
+      "operator": "ゴジラ岩観光",
+      "operator_url": "https://kamuiwakka.jp/",
+      "route_url": "https://kamuiwakka.jp/utoro",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "ウトロ（ゴジラ岩観光）",
+          "lat": 44.07146,
+          "lon": 144.9934
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "4月28日〜10月20日（知床岬コースは6月1日〜9月30日）",
+      "status": "active",
+      "duration": "知床岬コース約3時間15分／ルシャコース約2時間／硫黄山コース約1時間",
+      "frequency": "各コース1日2便（最少催行7名）",
+      "vessels": "小型観光船",
+      "osm": [],
+      "notes": "ルシャ（ヒグマ観察）など自然観察の要素が強いコースを含む。同社の羅臼発ホエールウォッチングは対象外。",
+      "sources": [
+        "https://kamuiwakka.jp/utoro"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-mombetsu-garinko",
+      "name": "流氷観光船ガリンコ号（紋別）",
+      "operator": "オホーツク・ガリンコタワー",
+      "operator_url": "https://o-tower.co.jp/",
+      "route_url": "https://o-tower.co.jp/garinkogo.html",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "紋別（海洋交流館）",
+          "lat": 44.33834,
+          "lon": 143.37061
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "流氷クルーズは1〜3月。5〜10月は日程限定の特別クルーズ（ホタテ漁ウォッチング等）のみ",
+      "status": "active",
+      "duration": "約1時間（流氷クルーズ）",
+      "frequency": "",
+      "vessels": "砕氷観光船（ガリンコ号Ⅲ IMERU）",
+      "osm": [],
+      "notes": "冬季（2026年1〜3月）の具体的な時刻は公式で未確認。",
+      "sources": [
+        "https://o-tower.co.jp/garinkogo.html",
+        "https://www.ho-ships.jp/route/ryuhyo-cruise/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "02-sai-hotokegaura",
+      "name": "佐井〜仏ヶ浦（仏ヶ浦定期観光船）",
+      "operator": "仏ヶ浦海上観光",
+      "operator_url": "https://hotokegaura.jp/",
+      "route_url": "https://hotokegaura.jp/index.php?%E6%99%82%E5%88%BB%E8%A1%A8%E3%83%BB%E6%96%99%E9%87%91",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "佐井港（津軽海峡文化館アルサス）",
+          "lat": 41.43295,
+          "lon": 140.86157
+        },
+        {
+          "name": "仏ヶ浦",
+          "lat": 41.3114,
+          "lon": 140.80421
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "青森県"
+      ],
+      "seasonal": true,
+      "season_note": "5月1日〜10月31日（冬季運休）",
+      "status": "active",
+      "duration": "片道約30分（仏ヶ浦で約30〜40分の上陸散策）",
+      "frequency": "定期1日2便（佐井10:30・13:00発、仏ヶ浦11:30・14:10発）＋多客時臨時便",
+      "vessels": "高速観光船",
+      "osm": [],
+      "notes": "天候により仏ヶ浦に着岸できず海上遊覧のみとなる場合あり。",
+      "sources": [
+        "https://hotokegaura.jp/index.php?%E6%99%82%E5%88%BB%E8%A1%A8%E3%83%BB%E6%96%99%E9%87%91",
+        "http://www.t-ryokyakusen.jp/gr/aomori/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-onuma-shimameguri",
+      "name": "大沼公園 島巡り遊覧船",
+      "operator": "大沼合同遊船",
+      "operator_url": "https://www.onuma-parks.com/",
+      "route_url": "https://www.onuma-parks.com/",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "大沼公園（大沼遊船乗り場）",
+          "lat": 41.98421,
+          "lon": 140.6736
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "2026年は4月11日運航開始（例年4月〜11月頃、4月は不定期運航。冬季運休）",
+      "status": "active",
+      "duration": "約30分（大沼・小沼を周遊）",
+      "frequency": "",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "",
+      "sources": [
+        "https://www.onuma-parks.com/",
+        "https://www.pref.hokkaido.lg.jp/kz/kkd/kankousen.html"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-shikaribetsu",
+      "name": "然別湖観光遊覧船",
+      "operator": "然別湖畔温泉ホテル（ホテル風水）",
+      "operator_url": "https://www.hotelfusui.com/sightseeing/",
+      "route_url": "https://www.hotelfusui.com/img/yuurann2026.pdf",
+      "service": "sightseeing",
+      "water": "lake",
+      "ports": [
+        {
+          "name": "然別湖畔温泉（ホテル風水裏）",
+          "lat": 43.27359,
+          "lon": 143.10537
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "北海道"
+      ],
+      "seasonal": true,
+      "season_note": "冬季（結氷期）運休。運航期間・時刻は公式PDF（2026年版）参照",
+      "status": "active",
+      "duration": "約40分",
+      "frequency": "",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "早朝クルーズ・ナイトクルーズもあり。",
+      "sources": [
+        "https://www.hotelfusui.com/sightseeing/",
+        "https://www.ho-ships.jp/route/yuran-konuma/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "02-kitayamazaki-cruise",
+      "name": "北山崎断崖クルーズ（島越港発着）",
+      "operator": "陸中たのはた",
+      "operator_url": "https://www.vill.tanohata.iwate.jp/kankou/see/dangai-cruise.html",
+      "route_url": "https://www.vill.tanohata.iwate.jp/kankou/see/dangai-cruise.html",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "島越港",
+          "lat": 39.91408,
+          "lon": 141.94224
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "岩手県"
+      ],
+      "seasonal": true,
+      "season_note": "2026年は4月25日〜11月3日（冬季運休）",
+      "status": "active",
+      "duration": "約50分",
+      "frequency": "1日4便（GW・夏休み・お盆・秋の連休は最大6便）",
+      "vessels": "観光船",
+      "osm": [],
+      "notes": "運航会社（村の第三セクター）の独自サイトが無いため田野畑村の観光ページを使用。島越港の座標は概略（島越駅から徒歩約10分）。",
+      "sources": [
+        "https://www.vill.tanohata.iwate.jp/kankou/see/dangai-cruise.html",
+        "http://www.t-ryokyakusen.jp/gr/iwate/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-mogami-sannansho",
+      "name": "最上川三難所舟くだり（碁点〜三ヶ瀬〜隼）",
+      "operator": "最上川三難所舟くだり",
+      "operator_url": "https://funakudariga.com/",
+      "route_url": "https://funakudariga.com/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "碁点（三難所舟下り乗船場）",
+          "lat": 38.48172,
+          "lon": 140.34644
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "山形県"
+      ],
+      "seasonal": false,
+      "season_note": "5月1日〜11月10日は1日4便、11月11日〜4月末は1日1便（必要に応じ増便）",
+      "status": "active",
+      "duration": "",
+      "frequency": "1日1〜4便",
+      "vessels": "舟",
+      "osm": [],
+      "notes": "碁点・三ヶ瀬・隼の三難所を巡るコース（隼付近で折り返し碁点に戻る周遊として登録、要確認）。公式サイトはJavaScript表示で詳細未取得、東北旅客船協会の案内による。",
+      "sources": [
+        "http://www.t-ryokyakusen.jp/gr/yamagata/",
+        "https://wwwtb.mlit.go.jp/tohoku/kj/kj-sub17.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "02-matsushima-okumatsushima",
+      "name": "松島（仙随浜）〜奥松島 定期航路",
+      "operator": "東松島観光物産公社",
+      "operator_url": "https://higashimatsushima-kanko.com/pleasure_boat/",
+      "route_url": "https://higashimatsushima-kanko.com/pleasure_boat/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "松島 仙随浜桟橋",
+          "lat": 38.37069,
+          "lon": 141.06499
+        },
+        {
+          "name": "奥松島（宮戸）浮桟橋",
+          "lat": 38.34332,
+          "lon": 141.14929
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "宮城県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "suspended",
+      "duration": "片道約25〜35分",
+      "frequency": "運航時は日曜のみ（松島10:30発・奥松島12:30発）",
+      "vessels": "小型遊覧船",
+      "osm": [],
+      "notes": "公式に「令和8年8月現在、定期航路は運休中」と記載（再開時期未記載）。奥松島側の座標は概略。同社の嵯峨渓遊覧は定期運航ではない（3名以上で随時）ため対象外。",
+      "sources": [
+        "https://higashimatsushima-kanko.com/pleasure_boat/",
+        "http://www.t-ryokyakusen.jp/gr/miyagi/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "02-mogami-basho-line",
+      "name": "最上峡芭蕉ライン舟下り（古口〜草薙）",
+      "operator": "最上峡芭蕉ライン観光",
+      "operator_url": "http://www.blf.co.jp/",
+      "route_url": "http://www.blf.co.jp/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "古口港（戸沢藩船番所）",
+          "lat": 38.73805,
+          "lon": 140.14988
+        },
+        {
+          "name": "草薙港（川の駅・最上峡くさなぎ）",
+          "lat": 38.766,
+          "lon": 140.05328
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "山形県"
+      ],
+      "seasonal": false,
+      "season_note": "通年運航（12〜3月は雪見舟、冬季料金）",
+      "status": "active",
+      "duration": "約60分（約12km）",
+      "frequency": "1日5〜6便（定期航路便）",
+      "vessels": "舟",
+      "osm": [],
+      "notes": "片道の舟下り。帰りは到着に合わせた路線バス・車の回送サービス・戻り船（天候次第）あり。草薙港の座標は概略。",
+      "sources": [
+        "http://www.blf.co.jp/",
+        "http://www.t-ryokyakusen.jp/gr/yamagata/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "02-sakata-tobishima",
+      "name": "酒田〜飛島（勝浦）定期船とびしま",
+      "operator": "酒田市（定期航路事業所）",
+      "operator_url": "https://www.city.sakata.lg.jp/sangyo/kotsu/teikisen/",
+      "route_url": "https://www.city.sakata.lg.jp/sangyo/kotsu/teikisen/josenannai/teiki0220220214.html",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "酒田港（定期船とびしまターミナル）",
+          "lat": 38.91383,
+          "lon": 139.82975
+        },
+        {
+          "name": "飛島（勝浦港）",
+          "lat": 39.18481,
+          "lon": 139.54708
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "旅客船のため一般の自家用車は航送不可。代船運航中は車両運搬を見合わせており、定期船復帰後はまず飛島在住島民の車両に限定して予約受付を再開予定（一般車両は段階的に案内、2026年9月3日告知）。",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "山形県"
+      ],
+      "seasonal": false,
+      "season_note": "通年運航。10月〜3月は毎日1往復、4月〜9月は日により1〜2往復（運航日程カレンダーによる）",
+      "status": "active",
+      "duration": "約1時間15分",
+      "frequency": "1往復日は酒田9:30発・飛島13:45発、2往復日は酒田9:30・13:45発／飛島11:30・15:45発",
+      "vessels": "旅客船（とびしま：253総トン・定員230名）。2026年5月〜9月は代船（アイランドブリーズ号／夏季はシープリンセス）で運航",
+      "osm": [
+        "way/610780591"
+      ],
+      "notes": "定期船「とびしま」はエンジン部品破損のため運休し、代船で臨時運航中（大型荷物は貨物船「第五平成」で別送、代船は各便40名まで）。2026年9月30日に定期航路へ復帰・通常運航再開予定。自転車・原付・二輪（中型まで）は有料貨物扱い（代船期間中は制限あり）。全便予約可。",
+      "sources": [
+        "https://www.city.sakata.lg.jp/sangyo/kotsu/teikisen/",
+        "https://www.city.sakata.lg.jp/sangyo/kotsu/teikisen/josenannai/teiki0220220214.files/R8_1_Schedule.pdf",
+        "https://www.city.sakata.lg.jp/sangyo/kotsu/teikisen/josenannai/teiki0220220214.files/R8_2_Reception.pdf",
+        "https://www.city.sakata.lg.jp/sangyo/kotsu/teikisen/teikisenoshirase/teiki20260326-023.html",
+        "https://www.city.sakata.lg.jp/sangyo/kotsu/teikisen/teikisenoshirase/teiki20260326-022.html",
+        "https://www.city.sakata.lg.jp/sangyo/kotsu/teikisen/josenannai/fune-syoukai.html"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

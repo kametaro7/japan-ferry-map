@@ -1,0 +1,2081 @@
+{
+  "region": "12_okinawa",
+  "updated": "2026-09-13",
+  "routes": [
+    {
+      "id": "12-ie-motobu",
+      "name": "本部〜伊江島",
+      "operator": "伊江村（村営フェリー）",
+      "operator_url": "https://www.iejima.org/",
+      "route_url": "https://www.iejima.org/document/2015012100097/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "本部港",
+          "lat": 26.64125,
+          "lon": 127.88013
+        },
+        {
+          "name": "伊江港",
+          "lat": 26.70731,
+          "lon": 127.80083
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "車両予約可（6m以上は電話予約のみ）",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約30分",
+      "frequency": "1日4往復（7/21〜8/31は5往復、年末年始・GW等は最大8往復）",
+      "vessels": "フェリー（ぐすく・いえしま）",
+      "osm": [
+        "way/426962855"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.iejima.org/",
+        "https://www.iejima.org/document/2015012100097/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-tokashiki",
+      "name": "那覇（泊）〜渡嘉敷",
+      "operator": "渡嘉敷村（村営）",
+      "operator_url": "https://www.vill.tokashiki.okinawa.jp/sempakujoho/index.html",
+      "route_url": "https://www.vill.tokashiki.okinawa.jp/soshiki/sitekanri/5/2/1365.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "那覇（泊港）",
+          "lat": 26.22411,
+          "lon": 127.68345
+        },
+        {
+          "name": "渡嘉敷港",
+          "lat": 26.19927,
+          "lon": 127.36797
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "フェリーとかしきのみ。車両は電話予約（WEB予約不可、車高2.1m以上は要申告）",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "フェリー約70分・高速船約40分",
+      "frequency": "フェリー1日1往復、高速船1日2往復（GW・7〜9月の金土日は3往復）",
+      "vessels": "フェリー・高速船（フェリーとかしき、マリンライナーとかしき）",
+      "osm": [
+        "way/48290060"
+      ],
+      "notes": "乗船券は乗船当日のみ購入可。2026年10月1日から運賃改定。",
+      "sources": [
+        "https://www.vill.tokashiki.okinawa.jp/soshiki/sitekanri/5/2/1365.html",
+        "https://tokashiki-ferry.jp/Senpaku/portal",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-zamami",
+      "name": "那覇（泊）〜阿嘉〜座間味",
+      "operator": "座間味村（村営）",
+      "operator_url": "https://www.vill.zamami.okinawa.jp/sempaku/",
+      "route_url": "https://www.vill.zamami.okinawa.jp/ship/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "那覇（泊港）",
+          "lat": 26.22473,
+          "lon": 127.68369
+        },
+        {
+          "name": "阿嘉港",
+          "lat": 26.19002,
+          "lon": 127.28493
+        },
+        {
+          "name": "座間味港",
+          "lat": 26.2266,
+          "lon": 127.30198
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "フェリーざまみ3のみ。要事前予約",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "フェリー約2時間・高速船約50〜70分",
+      "frequency": "フェリー1日1往復、高速船クイーンざまみ1日2往復（繁忙期は増便）",
+      "vessels": "フェリー・高速船（フェリーざまみ3、クイーンざまみ）",
+      "osm": [
+        "way/549904484",
+        "way/549904479",
+        "way/1222001275"
+      ],
+      "notes": "フェリーは泊港南岸（とまりん前）、高速船は泊港北岸から発着。便により阿嘉先行・座間味先行が異なる。",
+      "sources": [
+        "https://www.vill.zamami.okinawa.jp/ship/",
+        "https://www.vill.zamami.okinawa.jp/sempaku/ryokin_jikoku/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-zamami-mitsushima",
+      "name": "座間味〜阿嘉（村内航路みつしま）",
+      "operator": "座間味村（村営）",
+      "operator_url": "https://www.vill.zamami.okinawa.jp/sempaku/",
+      "route_url": "https://www.vill.zamami.okinawa.jp/sempaku/mitsushima/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "座間味港",
+          "lat": 26.22645,
+          "lon": 127.30135
+        },
+        {
+          "name": "阿嘉港",
+          "lat": 26.19072,
+          "lon": 127.28484
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約15分",
+      "frequency": "1日4往復",
+      "vessels": "高速船（みつしま）",
+      "osm": [],
+      "notes": "予約不要（当日購入）。",
+      "sources": [
+        "https://www.vill.zamami.okinawa.jp/sempaku/mitsushima/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-zamami-mitsushima-aharen",
+      "name": "座間味・阿嘉〜渡嘉敷（阿波連）（みつしま予約制便）",
+      "operator": "座間味村（村営）",
+      "operator_url": "https://www.vill.zamami.okinawa.jp/sempaku/",
+      "route_url": "https://www.vill.zamami.okinawa.jp/sempaku/mitsushima/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "座間味港",
+          "lat": 26.22645,
+          "lon": 127.30135
+        },
+        {
+          "name": "阿嘉港",
+          "lat": 26.19072,
+          "lon": 127.28484
+        },
+        {
+          "name": "渡嘉敷島 阿波連港",
+          "lat": 26.166,
+          "lon": 127.34795
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "座間味〜阿波連約35分・阿嘉〜阿波連約20分",
+      "frequency": "予約がある場合のみ臨時便を運航",
+      "vessels": "高速船（みつしま）",
+      "osm": [
+        "way/703357472"
+      ],
+      "notes": "オンデマンド運航（事前予約制・12名定員、1か月前〜前日17時まで座間味島船舶事務所に予約）。予約がなければ運航しない。阿波連港は渡嘉敷港とは別の港。",
+      "sources": [
+        "https://www.vill.zamami.okinawa.jp/sempaku/mitsushima/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-aguni",
+      "name": "那覇（泊）〜粟国",
+      "operator": "粟国村（村営）",
+      "operator_url": "https://www.vill.aguni.okinawa.jp/",
+      "route_url": "https://www.vill.aguni.okinawa.jp/soshiki/senpaku/32.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "那覇（泊港）",
+          "lat": 26.2238,
+          "lon": 127.68325
+        },
+        {
+          "name": "粟国港",
+          "lat": 26.57869,
+          "lon": 127.23279
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約2時間",
+      "frequency": "1日1往復（泊9:30発、粟国13:45発）",
+      "vessels": "フェリー（ニューフェリーあぐに）",
+      "osm": [
+        "way/168151922"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.vill.aguni.okinawa.jp/soshiki/senpaku/32.html",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-kume-tonaki",
+      "name": "那覇（泊）〜渡名喜〜久米島",
+      "operator": "久米商船株式会社",
+      "operator_url": "http://www.kumeline.com/",
+      "route_url": "http://www.kumeline.com/route/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "那覇（泊港）",
+          "lat": 26.22411,
+          "lon": 127.68214
+        },
+        {
+          "name": "渡名喜港",
+          "lat": 26.3721,
+          "lon": 127.14033
+        },
+        {
+          "name": "久米島 兼城港",
+          "lat": 26.34141,
+          "lon": 126.75316
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "要予約",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "那覇〜久米島 直行約3時間・渡名喜経由約3時間30分、那覇〜渡名喜 約2時間",
+      "frequency": "1日2往復（午前便は渡名喜経由、午後便は久米島直行。月曜は1往復。4〜10月の金曜は午後便も渡名喜経由）",
+      "vessels": "フェリー（フェリー琉球、フェリー海邦）",
+      "osm": [
+        "way/169957110",
+        "way/467722199",
+        "way/467722200"
+      ],
+      "notes": "ドック期間は1隻運航で便数が減る。",
+      "sources": [
+        "http://www.kumeline.com/",
+        "http://www.vill.tonaki.okinawa.jp/sp/detail.jsp?id=57542&menuid=12311&funcid=1",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-daito",
+      "name": "那覇（泊）〜南大東〜北大東",
+      "operator": "大東海運株式会社",
+      "operator_url": "https://daitoline.co.jp/",
+      "route_url": "https://daitoline.co.jp/schedule",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "那覇（泊ふ頭）",
+          "lat": 26.22364,
+          "lon": 127.68154
+        },
+        {
+          "name": "南大東港",
+          "lat": 25.84222,
+          "lon": 131.2164
+        },
+        {
+          "name": "北大東港",
+          "lat": 25.95385,
+          "lon": 131.28351
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "車・自転車などは事前申請が必要（貨物として輸送、別途料金）。積荷に上限あり",
+      "bike": null,
+      "bicycle": true,
+      "overnight": true,
+      "overnight_note": "那覇17:00発→翌朝8:00頃に先行する島に着く約15時間の夜行便。2段寝台・5名部屋あり",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "那覇〜先行島 約15時間",
+      "frequency": "月4〜5便程度（南大東先行・北大東先行の便がある）",
+      "vessels": "貨客船（だいとう、定員55名）",
+      "osm": [
+        "way/461640745"
+      ],
+      "notes": "乗船は要予約（前月20日に翌月分の運航日程を発表）・現金のみ。那覇の発着は泊ふ頭または那覇新港ふ頭（便により異なる）。気象・海象による延期や日程変更が多い。島側の使用港は状況により変わる。南北大東島間の移動にも利用可。",
+      "sources": [
+        "https://daitoline.co.jp/schedule",
+        "https://daitoline.co.jp/flow",
+        "https://daitoline.co.jp/fare",
+        "https://daitoline.co.jp/ship",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-iheya",
+      "name": "運天〜伊平屋",
+      "operator": "伊平屋村（村営）",
+      "operator_url": "https://www.vill.iheya.okinawa.jp/",
+      "route_url": "https://www.vill.iheya.okinawa.jp/soshiki/9/1144.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "運天港",
+          "lat": 26.67747,
+          "lon": 127.99761
+        },
+        {
+          "name": "伊平屋 前泊港",
+          "lat": 27.03714,
+          "lon": 127.96948
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "車両は事前予約",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約80分",
+      "frequency": "1日2往復",
+      "vessels": "フェリー（フェリーいへや3）",
+      "osm": [
+        "way/461040328"
+      ],
+      "notes": "",
+      "sources": [
+        "https://www.vill.iheya.okinawa.jp/",
+        "https://www.vill.iheya.okinawa.jp/soshiki/9/1144.html",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-izena",
+      "name": "運天〜伊是名",
+      "operator": "伊是名村（村営）",
+      "operator_url": "https://vill.izena.okinawa.jp/",
+      "route_url": "https://vill.izena.okinawa.jp/about/access/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "運天港",
+          "lat": 26.67747,
+          "lon": 127.99761
+        },
+        {
+          "name": "伊是名 仲田港",
+          "lat": 26.9287,
+          "lon": 127.95223
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "航送台数に限りがあり事前予約が必要",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約55分",
+      "frequency": "1日2往復",
+      "vessels": "フェリー（フェリーいぜな尚円）",
+      "osm": [
+        "way/461040329"
+      ],
+      "notes": "",
+      "sources": [
+        "https://vill.izena.okinawa.jp/",
+        "https://vill.izena.okinawa.jp/about/access/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-minna",
+      "name": "渡久地〜水納島",
+      "operator": "合名会社水納海運",
+      "operator_url": "https://www7b.biglobe.ne.jp/~minna/",
+      "route_url": "https://www7b.biglobe.ne.jp/~minna/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "渡久地港",
+          "lat": 26.65923,
+          "lon": 127.88993
+        },
+        {
+          "name": "水納港",
+          "lat": 26.65027,
+          "lon": 127.81821
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約15分",
+      "frequency": "1日3〜8往復（11〜3月3往復、4〜6月・9/21〜10月4往復、7/1〜7/19・9/1〜9/20は6往復、7/20〜8/31は8往復）",
+      "vessels": "高速船（ニューウイングみんなⅡ）",
+      "osm": [
+        "way/460321693"
+      ],
+      "notes": "乗船券は予約不可、当日渡久地港ターミナルで購入。",
+      "sources": [
+        "https://www7b.biglobe.ne.jp/~minna/",
+        "https://www.okinawastory.jp/access/info/ship",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "12-kudaka",
+      "name": "安座真〜久高島",
+      "operator": "久高海運合名会社",
+      "operator_url": "https://kudakakaiun.jimdofree.com/",
+      "route_url": "https://kudakakaiun.jimdofree.com/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "安座真港",
+          "lat": 26.17959,
+          "lon": 127.82697
+        },
+        {
+          "name": "久高港",
+          "lat": 26.15418,
+          "lon": 127.88549
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "フェリーくだかⅢのみ（車両6台）",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約15分・フェリー約25分",
+      "frequency": "1日6往復（高速船とフェリーが交互）",
+      "vessels": "フェリー・高速船（フェリーくだかⅢ、ニライカナイ）",
+      "osm": [
+        "way/325187101"
+      ],
+      "notes": "運賃は現金のみ。",
+      "sources": [
+        "https://kudakakaiun.jimdofree.com/",
+        "https://kudakakaiun.jimdofree.com/フェリー紹介/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-tsuken",
+      "name": "平敷屋〜津堅島",
+      "operator": "有限会社神谷観光",
+      "operator_url": "https://tsuken.shimatabi.jp/",
+      "route_url": "https://tsuken.shimatabi.jp/?page_id=43",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "平敷屋港",
+          "lat": 26.30719,
+          "lon": 127.92271
+        },
+        {
+          "name": "津堅港",
+          "lat": 26.24461,
+          "lon": 127.93534
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "フェリーくがにのみ。積載台数に限りがあり事前予約",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "フェリー約30分・高速船約15分",
+      "frequency": "1日5往復（フェリー3・高速船2）",
+      "vessels": "フェリー・高速船（フェリーくがに、ニューくがに）",
+      "osm": [
+        "way/464016970"
+      ],
+      "notes": "高速船とフェリーが入れ替わることがある。",
+      "sources": [
+        "https://tsuken.shimatabi.jp/?page_id=43",
+        "https://www.city.uruma.lg.jp/1009001000/contents/464.html",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-tarama",
+      "name": "平良〜多良間",
+      "operator": "合資会社多良間海運",
+      "operator_url": "http://www.taramakaiun.com/",
+      "route_url": "http://www.taramakaiun.com/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "平良港",
+          "lat": 24.80659,
+          "lon": 125.27447
+        },
+        {
+          "name": "多良間（普天間港・前泊港）",
+          "lat": 24.64438,
+          "lon": 124.72159
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約2時間",
+      "frequency": "1日1往復（日曜運休）",
+      "vessels": "フェリー（フェリーたらまⅢ）",
+      "osm": [
+        "way/450556501"
+      ],
+      "notes": "多良間島側の発着港は風向き等により普天間港（多良間港）または前泊港となる。牛セリ等に伴う運航変更あり。乗船券は船着き場の受付で購入。",
+      "sources": [
+        "http://www.taramakaiun.com/",
+        "https://www.vill.tarama.okinawa.jp/about/access/ferry/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-ogami",
+      "name": "島尻〜大神島",
+      "operator": "株式会社大神海運",
+      "operator_url": "https://oogamikaiun.com/",
+      "route_url": "https://oogamikaiun.com/",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "島尻港",
+          "lat": 24.87787,
+          "lon": 125.29718
+        },
+        {
+          "name": "大神港",
+          "lat": 24.91313,
+          "lon": 125.30739
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約15分",
+      "frequency": "1日4往復",
+      "vessels": "旅客船（ウカンかりゆす）",
+      "osm": [
+        "way/165927949"
+      ],
+      "notes": "予約不可。",
+      "sources": [
+        "https://oogamikaiun.com/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-anei-taketomi",
+      "name": "石垣〜竹富島",
+      "operator": "有限会社安栄観光",
+      "operator_url": "https://aneikankou.co.jp/",
+      "route_url": "https://aneikankou.co.jp/timetable/detail/3",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "竹富港",
+          "lat": 24.33646,
+          "lon": 124.09357
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "高速貨客カーフェリー「ぱいかじ」（火・土）のみ。石垣貨物事務所へ申込み",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約15〜20分",
+      "frequency": "高速船1日8〜9往復、貨客カーフェリー週2往復（火・土）",
+      "vessels": "高速船・貨客カーフェリー（ぱいかじ）",
+      "osm": [
+        "way/43558320"
+      ],
+      "notes": "",
+      "sources": [
+        "https://aneikankou.co.jp/timetable/detail/3",
+        "https://aneikankou.co.jp/timetable",
+        "https://aneikankou.co.jp/timetable/carferry",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-anei-kohama",
+      "name": "石垣〜小浜島",
+      "operator": "有限会社安栄観光",
+      "operator_url": "https://aneikankou.co.jp/",
+      "route_url": "https://aneikankou.co.jp/timetable/detail/2",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "小浜港",
+          "lat": 24.34444,
+          "lon": 123.99168
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客カーフェリー「ぱいかじ」（水・金・日、季節により異なる）のみ",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約25〜30分・カーフェリー約60分",
+      "frequency": "高速船1日4往復、貨客カーフェリー週2〜3便",
+      "vessels": "高速船・貨客カーフェリー（ぱいかじ）",
+      "osm": [
+        "way/450518268"
+      ],
+      "notes": "",
+      "sources": [
+        "https://aneikankou.co.jp/timetable/detail/2",
+        "https://aneikankou.co.jp/timetable",
+        "https://aneikankou.co.jp/timetable/carferry",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-anei-kuroshima",
+      "name": "石垣〜黒島",
+      "operator": "有限会社安栄観光",
+      "operator_url": "https://aneikankou.co.jp/",
+      "route_url": "https://aneikankou.co.jp/timetable/detail/4",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "黒島港",
+          "lat": 24.25344,
+          "lon": 124.00147
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客カーフェリー「ぱいかじ」（月・木）のみ",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約25〜30分・カーフェリー約60分",
+      "frequency": "高速船1日3往復、貨客カーフェリー週2便",
+      "vessels": "高速船・貨客カーフェリー（ぱいかじ）",
+      "osm": [
+        "way/450355209"
+      ],
+      "notes": "",
+      "sources": [
+        "https://aneikankou.co.jp/timetable/detail/4",
+        "https://aneikankou.co.jp/timetable",
+        "https://aneikankou.co.jp/timetable/carferry",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-anei-ohara",
+      "name": "石垣〜西表島（大原）",
+      "operator": "有限会社安栄観光",
+      "operator_url": "https://aneikankou.co.jp/",
+      "route_url": "https://aneikankou.co.jp/timetable/detail/1",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "西表島 大原港",
+          "lat": 24.27189,
+          "lon": 123.8841
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客カーフェリー「ぱいかじ」（火・木・土）のみ",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約40〜50分（竹富経由約75〜80分）・カーフェリー約80分",
+      "frequency": "高速船1日3往復（上原航路欠航時は増便）、貨客カーフェリー週3便",
+      "vessels": "高速船・貨客カーフェリー（ぱいかじ）",
+      "osm": [
+        "way/462220921"
+      ],
+      "notes": "大原14:00発は竹富島経由。上原航路欠航時は大原港発着に振り替え。",
+      "sources": [
+        "https://aneikankou.co.jp/timetable/detail/1",
+        "https://aneikankou.co.jp/timetable",
+        "https://aneikankou.co.jp/timetable/carferry",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-anei-uehara",
+      "name": "石垣〜西表島（上原）",
+      "operator": "有限会社安栄観光",
+      "operator_url": "https://aneikankou.co.jp/",
+      "route_url": "https://aneikankou.co.jp/timetable/detail/5",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "西表島 上原港",
+          "lat": 24.41829,
+          "lon": 123.79992
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客カーフェリー「ぱいかじ」（上原・鳩間航路、週2〜3便）のみ",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船 直行約45〜55分・鳩間経由約70〜80分",
+      "frequency": "高速船1日4往復（うち1便は鳩間経由）、貨客カーフェリー週2〜3便",
+      "vessels": "高速船・貨客カーフェリー（ぱいかじ）",
+      "osm": [
+        "way/47587064"
+      ],
+      "notes": "北風・うねりで欠航しやすく、欠航時は大原港発着に振り替え。上原港運航時の接続バスは2026年5月末で終了。",
+      "sources": [
+        "https://aneikankou.co.jp/timetable/detail/5",
+        "https://aneikankou.co.jp/timetable",
+        "https://aneikankou.co.jp/timetable/carferry",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-anei-hatoma",
+      "name": "石垣〜鳩間島",
+      "operator": "有限会社安栄観光",
+      "operator_url": "https://aneikankou.co.jp/",
+      "route_url": "https://aneikankou.co.jp/timetable/detail/7",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "鳩間港",
+          "lat": 24.46786,
+          "lon": 123.82051
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客カーフェリー「ぱいかじ」（上原・鳩間航路、週2〜3便）のみ",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "直行約45〜55分・上原経由約75〜85分",
+      "frequency": "高速船1日2往復（石垣8:30発・鳩間17:25発は上原経由）",
+      "vessels": "高速船・貨客カーフェリー（ぱいかじ）",
+      "osm": [
+        "way/450351445"
+      ],
+      "notes": "上原航路の経由便のため、上原航路欠航時は欠航。",
+      "sources": [
+        "https://aneikankou.co.jp/timetable/detail/7",
+        "https://aneikankou.co.jp/timetable",
+        "https://aneikankou.co.jp/timetable/carferry",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-anei-hateruma",
+      "name": "石垣〜波照間島",
+      "operator": "有限会社安栄観光",
+      "operator_url": "https://aneikankou.co.jp/",
+      "route_url": "https://aneikankou.co.jp/timetable/detail/6",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "波照間港",
+          "lat": 24.06731,
+          "lon": 123.76577
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客カーフェリー「フェリーはてるま2」（火・木・土）のみ。車両積載はごく少数",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約60〜90分・フェリー約2時間",
+      "frequency": "高速船1日3往復（冬季は減便の場合あり）、フェリー週3往復（火・木・土）",
+      "vessels": "高速船・貨客カーフェリー（ぱいじま2ほか、フェリーはてるま2）",
+      "osm": [
+        "way/467677447"
+      ],
+      "notes": "外洋を通るため冬季を中心に欠航が多い。石垣11:45発などの一部便は不定期に大原港経由。",
+      "sources": [
+        "https://aneikankou.co.jp/timetable/detail/6",
+        "https://aneikankou.co.jp/timetable",
+        "https://aneikankou.co.jp/timetable/carferry",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-anei-ohara-taketomi",
+      "name": "西表島（大原）〜竹富島（島間便）",
+      "operator": "有限会社安栄観光",
+      "operator_url": "https://aneikankou.co.jp/",
+      "route_url": "https://aneikankou.co.jp/timetable",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "西表島 大原港",
+          "lat": 24.27189,
+          "lon": 123.8841
+        },
+        {
+          "name": "竹富港",
+          "lat": 24.33646,
+          "lon": 124.09357
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約40〜50分",
+      "frequency": "大原14:00発の1便（大原→竹富の片道）",
+      "vessels": "高速船",
+      "osm": [
+        "way/462247399"
+      ],
+      "notes": "石垣〜大原航路の竹富島経由便を島間航路として利用する形。",
+      "sources": [
+        "https://aneikankou.co.jp/timetable",
+        "https://aneikankou.co.jp/timetable/detail/1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-anei-uehara-hatoma",
+      "name": "西表島（上原）〜鳩間島",
+      "operator": "有限会社安栄観光",
+      "operator_url": "https://aneikankou.co.jp/",
+      "route_url": "https://aneikankou.co.jp/timetable",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "西表島 上原港",
+          "lat": 24.41829,
+          "lon": 123.79992
+        },
+        {
+          "name": "鳩間港",
+          "lat": 24.46786,
+          "lon": 123.82051
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客カーフェリー「ぱいかじ」の上原・鳩間航路（週2〜3便）のみ",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約10〜15分",
+      "frequency": "高速船1日1往復（上原9:30発・鳩間17:25発）",
+      "vessels": "高速船・貨客カーフェリー（ぱいかじ）",
+      "osm": [
+        "way/450351446"
+      ],
+      "notes": "石垣〜上原〜鳩間の経由便の区間利用。上原航路欠航時は欠航。",
+      "sources": [
+        "https://aneikankou.co.jp/timetable",
+        "https://aneikankou.co.jp/timetable/carferry"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-ykf-taketomi",
+      "name": "石垣〜竹富島",
+      "operator": "八重山観光フェリー株式会社",
+      "operator_url": "https://yaeyama.co.jp/",
+      "route_url": "https://yaeyama.co.jp/operation.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "竹富港",
+          "lat": 24.33646,
+          "lon": 124.09357
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客船（ゆいまる・かりゆし）の運航日のみ。車両は完全予約制（貨物課）。貨客船は月・金",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約15分・貨客船約30分",
+      "frequency": "高速船1日10往復、貨客船週2便",
+      "vessels": "高速船・貨客船",
+      "osm": [
+        "way/43558320"
+      ],
+      "notes": "",
+      "sources": [
+        "https://yaeyama.co.jp/operation.html",
+        "https://yaeyama.co.jp/files/docs/kamotsuschedule202609_2.pdf",
+        "https://www.yaeyama.co.jp/files/docs/carfare.pdf",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-ykf-kohama",
+      "name": "石垣〜小浜島",
+      "operator": "八重山観光フェリー株式会社",
+      "operator_url": "https://yaeyama.co.jp/",
+      "route_url": "https://yaeyama.co.jp/operation.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "小浜港",
+          "lat": 24.34444,
+          "lon": 123.99168
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客船（ゆいまる・かりゆし）の運航日のみ。車両は完全予約制（貨物課）。貨客船は火・木・土",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約25〜30分・貨客船約70分",
+      "frequency": "高速船1日6往復、貨客船週3便",
+      "vessels": "高速船・貨客船",
+      "osm": [
+        "way/450518268"
+      ],
+      "notes": "",
+      "sources": [
+        "https://yaeyama.co.jp/operation.html",
+        "https://yaeyama.co.jp/files/docs/kamotsuschedule202609_2.pdf",
+        "https://www.yaeyama.co.jp/files/docs/carfare.pdf",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-ykf-kuroshima",
+      "name": "石垣〜黒島",
+      "operator": "八重山観光フェリー株式会社",
+      "operator_url": "https://yaeyama.co.jp/",
+      "route_url": "https://yaeyama.co.jp/operation.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "黒島港",
+          "lat": 24.25344,
+          "lon": 124.00147
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客船（ゆいまる・かりゆし）の運航日のみ。車両は完全予約制（貨物課）。貨客船は水曜。大型車は積載制限あり",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約30分・貨客船約70分",
+      "frequency": "高速船1日3往復、貨客船週1便",
+      "vessels": "高速船・貨客船",
+      "osm": [
+        "way/450355209"
+      ],
+      "notes": "",
+      "sources": [
+        "https://yaeyama.co.jp/operation.html",
+        "https://yaeyama.co.jp/files/docs/kamotsuschedule202609_2.pdf",
+        "https://www.yaeyama.co.jp/files/docs/carfare.pdf",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-ykf-ohara",
+      "name": "石垣〜西表島（大原）",
+      "operator": "八重山観光フェリー株式会社",
+      "operator_url": "https://yaeyama.co.jp/",
+      "route_url": "https://yaeyama.co.jp/operation.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "西表島 大原港",
+          "lat": 24.27189,
+          "lon": 123.8841
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客船（ゆいまる・かりゆし）の運航日のみ。車両は完全予約制（貨物課）。貨客船は月・水・金",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約40〜50分・貨客船約120分",
+      "frequency": "高速船1日6往復、貨客船週3便",
+      "vessels": "高速船・貨客船",
+      "osm": [
+        "way/462220921"
+      ],
+      "notes": "",
+      "sources": [
+        "https://yaeyama.co.jp/operation.html",
+        "https://yaeyama.co.jp/files/docs/kamotsuschedule202609_2.pdf",
+        "https://www.yaeyama.co.jp/files/docs/carfare.pdf",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-ykf-uehara",
+      "name": "石垣〜西表島（上原）",
+      "operator": "八重山観光フェリー株式会社",
+      "operator_url": "https://yaeyama.co.jp/",
+      "route_url": "https://yaeyama.co.jp/operation.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "西表島 上原港",
+          "lat": 24.41829,
+          "lon": 123.79992
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客船（ゆいまる・かりゆし）の運航日のみ。車両は完全予約制（貨物課）。貨客船は火・木・土（火・土は鳩間経由）。大型車は積載制限あり",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約45〜60分・貨客船約100分（鳩間経由約130分）",
+      "frequency": "高速船1日4往復、貨客船週3便",
+      "vessels": "高速船・貨客船",
+      "osm": [
+        "way/47587064"
+      ],
+      "notes": "冬季を中心に北風で欠航しやすい（欠航時の上原港への移動案内あり）。",
+      "sources": [
+        "https://yaeyama.co.jp/operation.html",
+        "https://yaeyama.co.jp/files/docs/kamotsuschedule202609_2.pdf",
+        "https://www.yaeyama.co.jp/files/docs/carfare.pdf",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-ykf-hatoma",
+      "name": "石垣〜鳩間島",
+      "operator": "八重山観光フェリー株式会社",
+      "operator_url": "https://yaeyama.co.jp/",
+      "route_url": "https://yaeyama.co.jp/operation.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港離島ターミナル",
+          "lat": 24.33685,
+          "lon": 124.15546
+        },
+        {
+          "name": "鳩間港",
+          "lat": 24.46786,
+          "lon": 123.82051
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客船（ゆいまる・かりゆし）の運航日のみ。車両は完全予約制（貨物課）。貨客船は火・土（上原経由）。大型車は積載制限あり",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "高速船約50分（上原経由便あり）",
+      "frequency": "高速船1日2往復、貨客船週2便",
+      "vessels": "高速船・貨客船",
+      "osm": [
+        "way/450351445"
+      ],
+      "notes": "",
+      "sources": [
+        "https://yaeyama.co.jp/operation.html",
+        "https://yaeyama.co.jp/files/docs/kamotsuschedule202609_2.pdf",
+        "https://www.yaeyama.co.jp/files/docs/carfare.pdf",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-ykf-uehara-hatoma",
+      "name": "西表島（上原）〜鳩間島",
+      "operator": "八重山観光フェリー株式会社",
+      "operator_url": "https://yaeyama.co.jp/",
+      "route_url": "https://yaeyama.co.jp/operation.html",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "西表島 上原港",
+          "lat": 24.41829,
+          "lon": 123.79992
+        },
+        {
+          "name": "鳩間港",
+          "lat": 24.46786,
+          "lon": 123.82051
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "貨客船（ゆいまる・かりゆし）の運航日のみ。車両は完全予約制（貨物課）。貨客船は火・土",
+      "bike": null,
+      "bicycle": null,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約15分",
+      "frequency": "高速船1日1往復（上原9:00発・鳩間16:40発）、貨客船週2便",
+      "vessels": "高速船・貨客船",
+      "osm": [
+        "way/450351446"
+      ],
+      "notes": "石垣〜上原〜鳩間の経由便の区間利用。",
+      "sources": [
+        "https://yaeyama.co.jp/operation.html",
+        "https://yaeyama.co.jp/files/docs/kamotsuschedule202609_2.pdf",
+        "https://www.yaeyama.co.jp/files/docs/carfare.pdf",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-yonaguni",
+      "name": "石垣〜与那国（久部良）",
+      "operator": "合資会社福山海運",
+      "operator_url": "https://www.yonakuni-ferry.com/",
+      "route_url": "https://www.yonakuni-ferry.com/",
+      "service": "ferry",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "石垣港 八島フェリーターミナル",
+          "lat": 24.33444,
+          "lon": 124.15868
+        },
+        {
+          "name": "与那国 久部良港",
+          "lat": 24.45079,
+          "lon": 122.94203
+        }
+      ],
+      "loop": false,
+      "car": true,
+      "car_note": "要事前予約（与那国本社・石垣営業所へ電話）",
+      "bike": true,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約4時間",
+      "frequency": "週2往復（石垣発 月・木10:00、与那国発 火・金9:00）",
+      "vessels": "フェリー（フェリーよなくに）",
+      "osm": [
+        "way/462220922"
+      ],
+      "notes": "乗船券は当日窓口で現金販売。船内の座席・寝台は自由席。毎年7〜8月にドックで約2週間運休。石垣側は離島ターミナルではなく八島地区から発着。",
+      "sources": [
+        "https://www.yonakuni-ferry.com/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-funauki",
+      "name": "白浜〜船浮",
+      "operator": "有限会社船浮海運",
+      "operator_url": "https://funaukikaiun.wixsite.com/top-jp",
+      "route_url": "https://funaukikaiun.wixsite.com/top-jp",
+      "service": "passenger",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "白浜港",
+          "lat": 24.35913,
+          "lon": 123.74656
+        },
+        {
+          "name": "船浮港",
+          "lat": 24.3365,
+          "lon": 123.72908
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": null,
+      "bicycle": true,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約10分",
+      "frequency": "1日5往復",
+      "vessels": "旅客船（ふなうきまる）",
+      "osm": [
+        "way/448697949"
+      ],
+      "notes": "船浮集落は陸路が通じていない。乗船券は船内で購入。自転車等は別途貨物料金。",
+      "sources": [
+        "https://funaukikaiun.wixsite.com/top-jp",
+        "https://painusima.com/556/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-urauchi-river",
+      "name": "浦内川遊覧船（下流船着場〜上流船着場）",
+      "operator": "合資会社浦内川観光",
+      "operator_url": "https://urauchigawa.com/",
+      "route_url": "https://urauchigawa.com/cruise/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "浦内川 下流船着場",
+          "lat": 24.403,
+          "lon": 123.7785
+        },
+        {
+          "name": "浦内川 上流船着場（軍艦岩）",
+          "lat": 24.36376,
+          "lon": 123.79407
+        }
+      ],
+      "loop": false,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": false,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "片道約30分（往復約1時間）",
+      "frequency": "1日6便（9:00〜15:30発、GW・7/20〜9/20は特別便あり）",
+      "vessels": "遊覧船（マリウド）",
+      "osm": [
+        "way/594061745",
+        "way/594061746"
+      ],
+      "notes": "予約不要。原則4名以上で出航（4名未満は割増料金）。上流船着場で折り返し（滝方面は別ツアー）。",
+      "sources": [
+        "https://urauchigawa.com/cruise/",
+        "https://painusima.com/10802/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-nakama-river",
+      "name": "仲間川マングローブクルーズ（大原港発）",
+      "operator": "西表島交通株式会社",
+      "operator_url": "https://iriomote.com/cruise/",
+      "route_url": "https://iriomote.com/cruise/schedule/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "西表島 大原港（ショップじゅごん前）",
+          "lat": 24.27184,
+          "lon": 123.8828
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": false,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約50〜60分（マングローブコース）",
+      "frequency": "1日3便程度（出航時刻は潮位により変わる。3か月先までの予定表を公開）",
+      "vessels": "遊覧船",
+      "osm": [],
+      "notes": "予約不要（チケットはショップじゅごんで販売）。低潮位時は欠航・コース変更あり。サキシマスオウノキコースは木道破損のため当面休止。",
+      "sources": [
+        "https://iriomote.com/cruise/",
+        "https://painusima.com/646/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-nakama-river-kanamori",
+      "name": "仲間川遊覧船（マリンレジャー金盛）",
+      "operator": "マリンレジャー金盛",
+      "operator_url": "https://painusima.com/722/",
+      "route_url": "https://painusima.com/722/",
+      "service": "sightseeing",
+      "water": "river",
+      "ports": [
+        {
+          "name": "西表島 大原港",
+          "lat": 24.27189,
+          "lon": 123.8841
+        },
+        {
+          "name": "仲間川 大富船着場",
+          "lat": 24.2799,
+          "lon": 123.8799
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": false,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約60分",
+      "frequency": "1日3便（大原港9:00発、大富港9:30・14:00発）",
+      "vessels": "遊覧船（かもめ号）",
+      "osm": [],
+      "notes": "公式サイトが見当たらないため竹富町観光協会の事業者紹介ページを掲載。潮位により出発時刻が変わるため要問い合わせ（TEL 0980-85-5378）。大富港発は大原までの送迎あり。大富船着場の座標は推定。",
+      "sources": [
+        "https://painusima.com/722/",
+        "http://yaenavi.com/shop/446.html",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "12-kabira-glassboat-kabiramarine",
+      "name": "川平湾グラスボート（川平マリンサービス）",
+      "operator": "有限会社川平マリンサービス",
+      "operator_url": "https://www.kabiramarine.jp/",
+      "route_url": "https://www.kabiramarine.jp/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "川平湾（川平公園下の浜）",
+          "lat": 24.46171,
+          "lon": 124.1436
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": false,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約30分",
+      "frequency": "9:00〜17:00に約15分毎（年中無休）",
+      "vessels": "グラスボート",
+      "osm": [],
+      "notes": "天候・海象により欠航あり。",
+      "sources": [
+        "https://www.kabiramarine.jp/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-kabira-glassboat-kaiho",
+      "name": "川平湾グラスボート（海邦マリン）",
+      "operator": "海邦マリン株式会社",
+      "operator_url": "https://kaiho-marine.com/",
+      "route_url": "https://kaiho-marine.com/",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "川平湾（川平公園下の浜）",
+          "lat": 24.46171,
+          "lon": 124.1436
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": false,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約30分",
+      "frequency": "9:00〜17:00に15〜20分間隔（年中運航）",
+      "vessels": "グラスボート（うみのくに丸）",
+      "osm": [],
+      "notes": "公式サイトに2026年の日付表記は見当たらず。",
+      "sources": [
+        "https://kaiho-marine.com/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "12-busena-glassboat",
+      "name": "ブセナ海中公園グラスボート",
+      "operator": "一般財団法人沖縄観光コンベンションビューロー（ブセナ海中公園）",
+      "operator_url": "https://www.busena-marinepark.com/",
+      "route_url": "https://www.busena-marinepark.com/sp/glassboat/index.html",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "ブセナ海中公園 グラスボート乗り場",
+          "lat": 26.54088,
+          "lon": 127.93277
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": false,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約20分",
+      "frequency": "毎時10分・30分・50分発（4〜10月9:10〜17:30、11〜3月9:10〜17:00）",
+      "vessels": "グラス底ボート（定員36名）",
+      "osm": [],
+      "notes": "予約不要。干潮時は欠航の可能性あり。",
+      "sources": [
+        "https://www.busena-marinepark.com/sp/glassboat/index.html",
+        "https://www.busena-marinepark.com/information/",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-naha-orca",
+      "name": "水中観光船オルカ号（那覇港）",
+      "operator": "有限会社ウエストマリン",
+      "operator_url": "https://ja.westmarine.co.jp/",
+      "route_url": "https://ja.westmarine.co.jp/info_water.php",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "那覇ふ頭船客待合所",
+          "lat": 26.21128,
+          "lon": 127.66975
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": false,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約50〜60分",
+      "frequency": "1日4便（10:00・11:30・14:00・15:30）",
+      "vessels": "水中観光船（オルカ）",
+      "osm": [],
+      "notes": "予約推奨（空席があれば当日も可）。ドック期間は運休。同社のモビーディック号（食事付きクルーズ）は収録対象外。",
+      "sources": [
+        "https://ja.westmarine.co.jp/info_water.php",
+        "https://ja.westmarine.co.jp/orca.php",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "12-miyako-seasky-hakuai",
+      "name": "半潜水式水中観光船シースカイ博愛（宮古島）",
+      "operator": "株式会社南西楽園リゾート（うえのドイツ文化村）",
+      "operator_url": "https://www.hakuaiueno.com/seasky.html",
+      "route_url": "https://www.hakuaiueno.com/seasky.html",
+      "service": "sightseeing",
+      "water": "sea",
+      "ports": [
+        {
+          "name": "博愛漁港（シースカイ待合所）",
+          "lat": 24.7188,
+          "lon": 125.32919
+        }
+      ],
+      "loop": true,
+      "car": false,
+      "car_note": "",
+      "bike": false,
+      "bicycle": false,
+      "overnight": false,
+      "overnight_note": "",
+      "international": false,
+      "countries": [
+        "JP"
+      ],
+      "prefectures": [
+        "沖縄県"
+      ],
+      "seasonal": false,
+      "season_note": "",
+      "status": "active",
+      "duration": "約45分",
+      "frequency": "1日7便（9:00〜16:00、12時台を除く毎時）",
+      "vessels": "半潜水式水中観光船",
+      "osm": [],
+      "notes": "不定休。天候により運航中止あり。",
+      "sources": [
+        "https://www.hakuaiueno.com/seasky.html",
+        "https://www.ogb.go.jp/-/media/Files/OGB/Unyu/survey/R7unyuyoran_260212.pdf"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

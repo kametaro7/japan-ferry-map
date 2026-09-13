@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>日本の航路マップ</title>
+<meta name="description" content="日本全国のフェリー・高速船・観光船・水上バスなど、旅客が乗れる定期航路を地図で探せるマップ。夜行・船中泊やマイカー搭載で絞り込み、各運航会社のサイトへ移動できます。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9B%B4%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.24.0/maplibre-gl.css">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  // 初回描画前にテーマを決める（地図の見た目の選択を優先、無ければOS設定）
+  (function () {
+    var b = null;
+    try { b = localStorage.getItem('jfm.basemap'); } catch (e) {}
+    if (!b) b = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', b === 'dark' ? 'dark' : 'light');
+  })();
+</script>
+</head>
+<body>
+<div id="app">
+  <aside id="panel" class="panel half" aria-label="航路の検索と一覧">
+    <button id="sheetHandle" class="sheet-handle" type="button" aria-label="パネルの大きさを切り替え"><span></span></button>
+    <header class="panel-head">
+      <h1>日本の航路マップ</h1>
+      <p class="sub" id="subtitle">フェリー・高速船・観光船・水上バス</p>
+    </header>
+
+    <div class="search">
+      <input id="q" type="search" placeholder="港・航路・会社名で検索（例: 佐渡、宮島）" autocomplete="off" enterkeyhint="search" aria-label="港・航路・会社名で検索">
+    </div>
+
+    <div class="toggles" role="group" aria-label="条件">
+      <button type="button" class="toggle" data-toggle="o" aria-pressed="false"><span class="ico" aria-hidden="true">🌙</span>夜行・船中泊あり</button>
+      <button type="button" class="toggle" data-toggle="c" aria-pressed="false"><span class="ico" aria-hidden="true">🚗</span>マイカー搭載可</button>
+    </div>
+
+    <div class="scroll" id="scroll">
+      <div id="browse">
+        <section class="cats" aria-label="種別（地図の線の凡例）">
+          <div class="chips" id="catChips"></div>
+        </section>
+
+        <details class="filters" id="filters">
+          <summary><span>水域・地方などで絞り込み</span><span class="fsum" id="filterSummary"></span></summary>
+          <div class="fgroup">
+            <div class="flabel" id="waterLabel">水域</div>
+            <div class="chips" id="waterChips" role="group" aria-labelledby="waterLabel"></div>
+          </div>
+          <div class="fgroup">
+            <div class="flabel" id="regionLabel">地方</div>
+            <div class="chips" id="regionChips" role="group" aria-labelledby="regionLabel"></div>
+          </div>
+          <div class="fgroup options">
+            <label><input type="checkbox" id="optYear"> 通年運航のみ</label>
+            <label><input type="checkbox" id="optSus"> 休航中の航路も表示</label>
+            <button type="button" id="reset" class="linkbtn">条件をリセット</button>
+          </div>
+        </details>
+
+        <div class="count" id="count" aria-live="polite"></div>
+        <div id="list" class="list"></div>
+      </div>
+
+      <div id="detail" class="detail" hidden></div>
+
+      <footer class="panel-foot">
+        <p>航路の情報は各運航会社・自治体などの公式情報をもとに 2026年9月時点でまとめたものです。ダイヤ・運賃・運航状況は変わることがあるため、乗船前に必ず公式サイトで確認してください。</p>
+        <p>航路線の形: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors（ODbL）。形が分からない区間は、海岸線から推定した経路または港どうしを結んだ直線で示しています。</p>
+      </footer>
+    </div>
+  </aside>
+
+  <main id="map" aria-label="航路地図"></main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.24.0/maplibre-gl.js"></script>
+<script src="data/routes.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

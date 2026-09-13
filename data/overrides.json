@@ -1,0 +1,5 @@
+{
+  "11-nankyu-yamakawa-nejime": { "set": { "route_url": "" } },
+  "08-kaka-kukedo": { "set": { "operator_url": "https://kukedo.com/", "route_url": "https://kukedo.com/boat/course-01/" } },
+  "10-gotosangyo-nagasaki-tainoura": { "via": { "0": [[32.7179, 129.8482], [32.7111, 129.8279], [32.7154, 129.8105]] } }
+}
