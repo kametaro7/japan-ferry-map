@@ -14,7 +14,7 @@
 
 | パス | 内容 |
 |---|---|
-| `index.html`, `assets/` | 画面（MapLibre GL 5.24.0 + OpenFreeMap の地図） |
+| `index.html`, `assets/` | 画面（MapLibre GL 6.11.2〈jsDelivr の ES モジュール版〉+ OpenFreeMap の地図） |
 | `data/regions/NN_*.json` | **航路台帳**。担当エリア別 12 ファイル |
 | `data/regions/99_manual.json` | 手作業で確認・追加した航路（追加はここへ） |
 | `data/overrides.json` | 任意。航路ごとの上書き（`drop` / `set` / `osm` / `via`） |
